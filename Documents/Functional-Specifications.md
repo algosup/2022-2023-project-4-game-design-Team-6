@@ -1,11 +1,8 @@
 <hr>
-<center>Functional specifications
+<p align="center"> Functional specifications </p>
 <br>
-<br>
-Aurélien Fernandez
-<br>
-ALGOSUP, Group 6. All Rights Reserved.
-</center>
+<p align="center"> Aurélien Fernandez</p>
+<p align="center"> ALGOSUP, Group 6. All Rights Reserved.</p>
 <hr>
 
 # Summary
