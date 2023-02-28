@@ -11,7 +11,21 @@
 
 <summary>Table of content</summary>
 
-- Overview
+- [Summary](#summary)
+- [Overview](#overview)
+- [Stakeholders](#stakeholders)
+- [Personas](#personas)
+- [Scenarios](#scenarios)
+- [Functionnalities](#functionnalities)
+  - [Mechanics](#mechanics)
+  - [Design](#design)
+  - [Mockups](#mockups)
+    - [Menu](#menu)
+    - [Playable stages](#playable-stages)
+    - ["resting" stages](#resting-stages)
+- [Non-functionnal requirements](#non-functionnal-requirements)
+- [Risk and assumptions](#risk-and-assumptions)
+- [Footnotes](#footnotes)
 
 </details>
 
