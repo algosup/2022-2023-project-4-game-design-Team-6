@@ -46,6 +46,14 @@ To create a video game we will use multiple tools such as:
   
 # Personas
 
+<img src="images/Francoise.png">
+<img src="images/Diana.png">
+<img src="images/Jack.png">
+<img src="images/Richard.png">
+<img src="images/Crystal.png">
+
+
+
 # Scenarios
 
 # Functionnalities
