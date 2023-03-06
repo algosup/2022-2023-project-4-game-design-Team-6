@@ -28,7 +28,7 @@
 # Overview
 
 The goal of this project is to create a video game with innovant ideas within 6 weeks.
-The idea is to teach students principles of game designers, during this project we will learn every fundamentals of creating a video game, from the creation of concepts to create the balance between every element.
+The idea is to teach students principles of game design, during this project we will learn every fundamentals of creating a video game, from the creation of concepts to create the balance between every element.
 
 To create a video game we will use multiple tools such as:
 
@@ -42,11 +42,11 @@ To create a video game we will use multiple tools such as:
   
 # Personas
 
-<img src="images/Francoise.png">
-<img src="images/Diana.png">
-<img src="images/Jack.png">
-<img src="images/Richard.png">
-<img src="images/Crystal.png">
+<img src="Images/Francoise.png">
+<img src="Images/Diana.png">
+<img src="Images/Jack.png">
+<img src="Images/Richard.png">
+<img src="Images/Crystal.png">
 
 # Scenarios
 
