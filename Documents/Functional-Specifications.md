@@ -13,13 +13,17 @@
 
 - [Summary](#summary)
 - [Overview](#overview)
-- [Stakeholders](#stakeholders)
-- [Personas](#personas)
-- [Scenarios](#scenarios)
-- [Functionnalities](#functionnalities)
+- [Game overview](#game-overview)
+  - [Story](#story)
   - [Mechanics](#mechanics)
+  - [Gameplay](#gameplay)
+        - [Setup phase](#setup-phase)
+        - [Play phase](#play-phase)
   - [Design](#design)
   - [Mockups](#mockups)
+  - [Course of a game](#course-of-a-game)
+        - [When the player starts the game:](#when-the-player-starts-the-game)
+        - [When the player starts a new game](#when-the-player-starts-a-new-game)
 - [Non-functionnal requirements](#non-functionnal-requirements)
 - [Footnotes](#footnotes)
 
@@ -35,45 +39,13 @@ To create a video game we will use multiple tools such as:
 - Unreal Engine 4
 - Modeling app such as blender
   
-# Stakeholders
+As for the audience we are aiming, we are aiming for every type of users, from 8 years old to 80 years old. However if you want more specific informations about potential users, you have a document in this document: [Personas](./Personas.md)
 
-- ALGOSUP
-- Users
-  
-# Personas
+# Game overview
 
-<img src="Images/Francoise.png">
-<img src="Images/Diana.png">
-<img src="Images/Jack.png">
-<img src="Images/Richard.png">
-<img src="Images/Crystal.png">
+## Story
 
-# Scenarios
-
-Scenario 1: Françoise:
-Françoise wants to relieve a bit from her stress, often she is playing some video games to do it, but she can't play long video games asking for her to play for multiple hours to finish because of her tight schedule.
-
-As a student she is searching for a video game with a fast gameplay, it is even better if she can replay it as many time as she want as roguelikes[^roguelike] or roguelites[^roguelite] tends to do.
-
-Scenario 2: Diana:
-Diana is searching for a solution to make her kid calmer, she will give her child our game. Being a young age the kid will try to understand by clicking everywhere.
-
-The child is searching for something fun to do and something not too hard for him to play.
-
-Scenario 3: Jack:
-Jack is a young developper who enjoys displaying his skills, it often results on breaking some video games' code or even playing some of his friend computer by using USB sticks or controling them remotely. He is doing this for fun, not for malevolent purposes but it often frighten his friends.
-
-Jack may want to break our game by any means possible, so we have to pay attention to as many bugs or breach we might find during the development of the game.
-
-Scenario 4: Richard:
-Richard is still learning about new technologies, he has more knowledge than most people of his age but he's not at the same level of understanding as youngs. His grandson invited to play with him on some videogames and to do so he decided to train himself to this specific type of interfaces, he is learning about games genres and how to play.
-
-Richard is currently searching for some roguelite to play, to help people like him, who are not used to video games we must have an intuitive interface, for them to understand how to play.
-
-Scenario 5: Crystal:
-Crystal is a young girl who's only desire is to play all the time, it can be board games, video games or simply outdoor games. She prefer simples games where she don't have to think  to play, so games like chess are a no go for her.
-
-# Functionnalities
+The story takes place in a fantasy world, humans are the most dominant species, goblins, orcs, phantoms, andcountless creatures can be found, but beware, they are lurking in the dark, waiting for the long-desired moment where they can crush all civilization and hope. You are the king, head of your country and its armies, you will have to defend your glorious kingdom against endless waves of monsters and sometimes traitors, but you are not alone, powerful artifacts will lead your way during this journey, defend your kingdom and your people my king, may the gods be with you.
 
 ## Mechanics
 
@@ -84,6 +56,25 @@ To explain a bit further, the user have a hand of card, generated randomly after
 The user will be able to place his towers on the map which is cut into a grid, he can also upgrade his towers and even give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and more difficult.
 
 Furthermore, the levels will be chosen by the user by using a procedural[^procedural] generation for the list of levels.
+
+## Gameplay
+
+The gameplay was made to be simple to grasp within short time, the battle phase is cut in two different part, the setup and the play phase.
+
+##### Setup phase
+
+The setup phase is as its name suggest a moment where the player is able to setup his towers. At the start of the phase the player will see his mana refilled and will have 5 more cards in his hand. At this moment the player will have to think about how to use his mana to place towers on the grid, (example, the player has an archer tower and a crossbow tower, they cost 2 and 3 but the player only has 4 mana, he has to choose which tower he can place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+
+When the player has finished his preparations he can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
+
+At the end of the phase the player keep his cards, however, he can hold until 20 cards maximum, if the player has his hand full, new cards directly go to the discard pile, to avoid the player to be stuck, he can send directly card in his hand to the discard pile for free.
+
+Finally if the player's deck is empty, his discard pile is shuffled and put back in the pile.
+
+##### Play phase
+
+The play phase represent the phase where ennemies are coming, the towers attack nearby ennemies and the phase ends when all ennemies are killed, except for boss battles, if the boss is not killed after a certain amount of time, it calls reinforcment and every ennemies are twice as fast, it is to avoid a battle phase that last longer than expected. Finaly, during this phase, the player can use his remaining mana to cast spell cards, they can temporaly enhance towers or even slow or hurt ennemies.
+
 ## Design
 
 ## Mockups
@@ -92,12 +83,31 @@ The image below is showing the interface during the play phase, on the bottom yo
 
 On the middle you can see the grid, this is wahere players can use their card and create their maze, naturally this is where ennemies will appear and this is where they will be marching toward the castle.
 
-Now, for the interface part, on the castle's left you can see the player's mana, on the top, you can see as it follows : the artifact inventory, the number of wave and finaly the pause button.
+Now, for the interface part, on the castle's left you can see the player's mana, on the top, you can see as it follows : the artifact inventory, the number of wave, the pause button and finaly under the pause button there is a "new wave" button (not visible on the mockup), this button serve to end the setup phase, hovering it reveal which monsters will come and how many of them there is.
 
 Finally on the left of the card you may have noticed there is a grey square, it is where we will put an almanach, it is a book to describe towers' and ennemies' features and, if we have the time, their lore[^lore].
 
+<img src="Images/Mockup.png">
 
-<img src="images/Mockup.png">
+## Course of a game
+
+##### When the player starts the game:
+
+- The player open the executable
+- The player arrives on the main menue
+- The player select "new game"
+  
+##### When the player starts a new game
+
+- The player arrives on the playable scene
+- The setup phase starts, the view is now aerial
+- The player use all his mana to place archer towers
+- The player pushes the "new wave" button"
+- He sucessfully kill all of the ennemies
+- The setup phase come back, all his mana is refilled, he now has 5 cards
+- The player pushes the "new wave" button
+- An ennemies sucessfuly pass through the player defenses and arrive at the castle, the player loses
+- The player come back to the main menu
 
 <!-- ### Menu
 
@@ -113,7 +123,7 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 
 # Footnotes
 [^lore]: The story, a character's lore is the story of the character, it can also define the main story for a movie, a book or a game.
-[^roguelite]: It is a lighter version of the roguelike genre.
+[^roguelite]: It is a lighter version of the roguelike[^roguelike] genre.
 [^roguelike]: As the name suggest, it is a genre of game based on the gameplay of the game "Rogue" a video game from 1980, in this game the user axplore a dungeon where monsters lurk in the dark, the user have to find object to help him finishing the game, most of the time this genre is associated with procedural maps.
 [^procedural]: A procedural generation is a randomly generated system, it is used to generate the terrain, the list of level or even encounters.
 [^responsive]: A responsive app is an app which is able to scale to every screen size of it's plateform, for example responsive website are website able to perform for every computers and/or phones without having issues with their apparence.
