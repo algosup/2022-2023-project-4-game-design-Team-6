@@ -53,7 +53,7 @@ Our team is searching for innovative ideas, to attain them we wanted to aim to a
 
 To explain a bit further, the user have a hand of card, generated randomly after each waves in a level depending of user's deck. To use it's card, the user will have to use he's mana, a ressource refilled as the same time as the hand.
 
-The user will be able to place his towers on the map which is cut into a grid, he can also upgrade his towers and even give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and more difficult.
+The user will be able to place his towers on the map which is cut into a grid, they can also upgrade his towers and even give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and more difficult.
 
 Furthermore, the levels will be chosen by the user by using a procedural[^procedural] generation for the list of levels.
 
@@ -63,11 +63,11 @@ The gameplay was made to be simple to grasp within short time, the battle phase 
 
 ##### Setup phase
 
-The setup phase is as its name suggest a moment where the player is able to setup his towers. At the start of the phase the player will see his mana refilled and will have 5 more cards in his hand. At this moment the player will have to think about how to use his mana to place towers on the grid, (example, the player has an archer tower and a crossbow tower, they cost 2 and 3 but the player only has 4 mana, he has to choose which tower he can place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+The setup phase is, as its name suggest a moment where the player is able to setup his towers. At the start of the phase the player will see his mana refilled and will have 5 more cards in his hand. At this moment the player will have to think about how to use his mana to place towers on the grid, (example, the player has an archer tower and a crossbow tower, they cost 2 and 3 but the player only has 4 mana, they has to choose which tower they can place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
 
-When the player has finished his preparations he can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
+When the player has finished his preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
 
-At the end of the phase the player keep his cards, however, he can hold until 20 cards maximum, if the player has his hand full, new cards directly go to the discard pile, to avoid the player to be stuck, he can send directly card in his hand to the discard pile for free.
+At the end of the phase the player keep his cards, however, they can hold until 20 cards maximum, if the player has his hand full, new cards directly go to the discard pile, to avoid the player to be stuck, they can send directly card in his hand to the discard pile for free.
 
 Finally if the player's deck is empty, his discard pile is shuffled and put back in the pile.
 
@@ -103,8 +103,8 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 - The setup phase starts, the view is now aerial
 - The player use all his mana to place archer towers
 - The player pushes the "new wave" button"
-- He sucessfully kill all of the ennemies
-- The setup phase come back, all his mana is refilled, he now has 5 cards
+- The player sucessfully kill all of the ennemies
+- The setup phase come back, all his mana is refilled, the player now has 5 cards
 - The player pushes the "new wave" button
 - An ennemies sucessfuly pass through the player defenses and arrive at the castle, the player loses
 - The player come back to the main menu
