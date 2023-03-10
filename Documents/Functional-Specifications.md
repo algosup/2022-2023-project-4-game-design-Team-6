@@ -39,21 +39,21 @@ To create a video game we will use multiple tools such as:
 - Unreal Engine 4
 - Modeling app such as blender
   
-As for the audience we are aiming, we are aiming for every type of users, from 8 years old to 80 years old. However if you want more specific informations about potential users, you have a document in this document: [Personas](./Personas.md)
+As for the audience we are aiming, we are aiming for every type of users, from 8 years old to 80 years old. However if you want more specific informations here is a document that will present them: [Personas](./Personas.md)
 
 # Game overview
 
 ## Story
 
-The story takes place in a fantasy world, humans are the most dominant species, goblins, orcs, phantoms, andcountless creatures can be found, but beware, they are lurking in the dark, waiting for the long-desired moment where they can crush all civilization and hope. You are the king, head of your country and its armies, you will have to defend your glorious kingdom against endless waves of monsters and sometimes traitors, but you are not alone, powerful artifacts will lead your way during this journey, defend your kingdom and your people my king, may the gods be with you.
+The story takes place in a fantasy world, humans are the most dominant species, goblins, orcs, phantoms, and countless creatures can be found, but beware, they are lurking in the dark, waiting for the long-desired moment where they can crush all civilization and hope. You are the king, head of your country and its armies, you will have to defend your glorious kingdom against endless waves of monsters and sometimes traitors, but you are not alone, powerful artifacts will lead your way during this journey, defend your kingdom and your people my king, may the gods be with you.
 
 ## Mechanics
 
-Our team is searching for innovative ideas, to attain them we wanted to aim to a new type of gameplay, our game is a tower defence game mixed with a roguelite[^roguelite] style, the user is defending his castle with the same mechanics as a standard tower defence but using a system of card and deck.
+Our team is searching for innovative ideas, to attain them we wanted to aim to a new type of gameplay, our game is a tower defence game mixed with a roguelite[^roguelite] style, the user is defending his castle with the same mechanics as a standard tower defence but using a system of cards and deck.
 
-To explain a bit further, the user have a hand of card, generated randomly after each waves in a level depending of user's deck. To use it's card, the user will have to use he's mana, a ressource refilled as the same time as the hand.
+To explain a bit further, the user have a hand of cards, generated randomly after each waves in a level depending of user's deck. To use their cards, the user will have to use he's mana, a ressource refilled as the same time as the hand.
 
-The user will be able to place his towers on the map which is cut into a grid, they can also upgrade his towers and even give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and more difficult.
+The user will be able to place his towers on the map which is cut into a grid, they can also upgrade their towers and even give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and more difficult.
 
 Furthermore, the levels will be chosen by the user by using a procedural[^procedural] generation for the list of levels.
 
