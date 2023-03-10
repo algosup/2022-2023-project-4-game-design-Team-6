@@ -30,6 +30,7 @@
     - [3.2.5. Deck](#325-deck)
     - [3.2.6. Enemies](#326-enemies)
     - [3.2.7. Waves](#327-waves)
+    - [3.2.8. Castle](#328-castle)
 
 
 
@@ -67,7 +68,7 @@ The Card Kingdom is a Tower Defense game, the player will have to defend their b
 
 ### 3.2.1. Towers
 
-Towers are the main element of the game, they are the only "physic" way to defend the base from enemies. The player will have to place them on the map, and they will automatically attack enemies. There are 5 different towers, each one with their own characteristics. The player will have to be careful when placing them, because they have a range, and if they are too far from the enemies, they won't be able to attack them, but also because the player won't be able to destroy them after they have been placed. The towers will have different mana cost, based on their DPS, and on their cost efficiency, which is the ratio between the cost of the tower and its DPS. The towers range are based on a circle, and the towers will attack the closest enemy in their circle. The player will only be able to place towers during the setup phase, before the next wave of enemies. Once a tower is placed it will stay on the map until the end of the game, and the card will disappear from the player's hand.
+Towers are the first type of cards, they are the only "physic" way to defend the base from enemies. The player will have to place them on the map, and they will automatically attack enemies. There are 5 different towers, each one with their own characteristics. The player will have to be careful when placing them, because they have a range, and if they are too far from the enemies, they won't be able to attack them, but also because the player won't be able to destroy them after they have been placed. The towers will have different mana cost, based on their DPS, and on their cost efficiency, which is the ratio between the cost of the tower and its DPS. The towers range are based on a circle, and the towers will attack the closest enemy in their circle. The player will only be able to place towers during the setup phase, before the next wave of enemies. Once a tower is placed it will stay on the map until the end of the game, and the card will disappear from the player's hand.
 
 <br/>
 
@@ -103,7 +104,17 @@ The enemies will be the main threat for the player, they will have to be defeate
 
 ### 3.2.7. Waves
 
-The game will be divided into waves, each wave will have a different number of enemies, and each wave will be more difficult than the previous one. The player will have to defeat all the enemies of a wave in order to go to the next one. The player will have to be careful, because if the enemies reach the castle, the castle will take damage and if the castle's health points reach 0, the player will lose the game. Every 5 waves, will have a boss wave, which will be more difficult than the previous waves, and will have a boss enemy. Before each wave, the player will have 1 minute to place their towers and temples on the map. Once the setup phase is over, the enemies will start to spawn, and the player will have to defeat them. The player will also have the possibility to start the wave before the 1 minute timer is over.
+The game will be divided into waves, each wave will have a different number of enemies, and each wave will be more difficult than the previous one. The player will have to defeat all the enemies of a wave in order to go to the next one. Every 5 waves, will have a boss wave, which will be more difficult than the previous waves, and will have a boss enemy. Before each wave, the player will have 1 minute to place their towers and temples on the map. Once the setup phase is over, the enemies will start to spawn, and the player will have to defeat them. The player will also have the possibility to start the wave before the 1 minute timer is over.
+
+<br/>
+
+### 3.2.8. Castle
+
+The castle is the main element of the game, it is the player's base, and it is the enemies will target, so the player will have to defend it at all cost. The castle will have 100 health points, and if the enemies reach it, they will deal damage to it. If the castle's health points reach 0, the player will lose the game. We recommend having a look at our spreadsheet to have a better understanding of the game mechanics and to get more details about the buildings, spells and enemies statistics.
+
+<br/>
+
+<b> Link to the statistics spreadsheet:</b> https://docs.google.com/spreadsheets/d/1XL3D_vrMhPHKqX94Ht1WxVEqHUgyo39kjctlDA9Ldi4/edit#gid=125845537
 
 
 
