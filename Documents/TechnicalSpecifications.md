@@ -58,7 +58,7 @@ Unreal Engine is a game engine developed by Epic Games, famous games have been c
 ## 3.1. Game Description
 
 
-The Card Kingdom is a Tower Defense game, the player will have to defend his base from waves of enemies. The player will have to place towers on the map to defend his base, and he will have the possibility of upgrading them to defeat enemies more easily. One of the main features of the game is the possibility to create your own deck of cards, and to use them in the game. The player will have to create a deck of 20 cards, and he will have 6 cards in his hand. The player will have the choice between 3 different types of cards which are towers, temples and spells. In order to use each cards, the player will have to use mana, and each turn the player will have its mana refilled. The player will have to use his cards wisely in order to defeat the enemies.
+The Card Kingdom is a Tower Defense game, the player will have to defend their base from waves of enemies. The player will have to place towers on the map to defend their base, and they will have the possibility of upgrading them to defeat enemies more easily. One of the main features of the game is the possibility to create your own deck of cards, and to use them in the game. The player will have to create a deck of 20 cards, and they will have 6 cards in his hand. The player will have the choice between 3 different types of cards which are towers, temples and spells. In order to use each cards, the player will have to use mana, and each turn the player will have its mana refilled. The player will have to use their cards wisely in order to defeat the enemies.
 
 <br/>
 
