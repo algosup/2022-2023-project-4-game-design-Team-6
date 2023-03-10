@@ -31,6 +31,14 @@
     - [3.2.6. Enemies](#326-enemies)
     - [3.2.7. Waves](#327-waves)
     - [3.2.8. Castle](#328-castle)
+  - [3.3. Game Flow](#33-game-flow)
+- [4. Graphics](#4-graphics)
+  - [4.1. Art Style](#41-art-style)
+  - [4.2. Visuals](#42-visuals)
+- [5. Audio](#5-audio)
+  - [5.1. Sound Effects](#51-sound-effects)
+  - [5.2. Music](#52-music)
+- [6. Glossary](#6-glossary)
 
 
 
@@ -52,8 +60,11 @@ The goal of this project is to create a video game with innovant ideas within 6 
 
 Unreal Engine is a game engine developed by Epic Games, famous games have been created using this engine, such as Fortnite, Gears of War, Rocket League and many others. This engine has some major advantages :
 
-- 
- that makes it a good choice for our project, to begin with, it is free to use and has a lot of free assets, and it is almost always very easy to use, it also has a lot of tutorials and documentation to help us learn how to use it. Unreal Engine is also very powerful, and is able to create very good graphics. It also has a pretty unique feature, named Blueprints, which allows the user to create their own scripts without having to learn a programming language, it will be very useful to simplify the development process. The version we will be using for this project is Unreal Engine 4.27.
+- It is free to use
+- It has a lot of tutorials and documentation
+- It is able to create very good graphics
+
+ It also has a pretty unique feature, named Blueprints, which allows the user to create their own scripts without having to learn a programming language (C++), it will be very useful to simplify the development process. The version we will be using for this project is Unreal Engine 4.27.
 
 <br/>
 
@@ -119,7 +130,38 @@ The castle is the main element of the game, it is the player's base, and it is t
 
 <b> Link to the statistics spreadsheet:</b> https://docs.google.com/spreadsheets/d/1XL3D_vrMhPHKqX94Ht1WxVEqHUgyo39kjctlDA9Ldi4/edit#gid=125845537
 
+<br/>
 
+## 3.3. Game Flow
+
+The game will be divided into 3 main phases, the setup phase, the wave phase and the end phase. The setup phase will be the phase where the player will have to place their towers and temples on the map, and where they will have to choose their spells. The wave phase will be the phase where the enemies will spawn, and the player will have to defeat them. The end phase will be the phase where the player will be able to see the results of the wave.
+
+<br/>
+
+# 4. Graphics
+
+For the graphics, we went for a minimalistic style, we wanted to have a simple and clean design, and we wanted to have a game that is easy to understand. 
+## 4.1. Art Style
+
+Regarding the art style, we chose the cutout art style, which is a style that is used to create a 3D effect with 2D elements. We thought this style would fit our game because it relies on card, so we wanted to create a link between the cards and the paper world in order to reinforce the player immersion. 
+
+
+## 4.2. Visuals
+
+As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will drawn **manually** by our team, but also the towers and the spells. 
+<br/>
+
+# 5. Audio
+
+## 5.1. Sound Effects
+
+<br/>
+
+## 5.2. Music
+
+<br/>
+
+# 6. Glossary
 
 
 
