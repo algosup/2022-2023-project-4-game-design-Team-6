@@ -22,8 +22,8 @@
   - [Design](#design)
   - [Mockup](#mockup)
   - [Course of a game](#course-of-a-game)
-        - [When the player starts the game:](#when-the-player-starts-the-game)
-        - [When the player starts a new game](#when-the-player-starts-a-new-game)
+        - [When the players starts the game:](#when-the-players-starts-the-game)
+        - [When the players starts a new game](#when-the-players-starts-a-new-game)
 - [Non-functionnal requirements](#non-functionnal-requirements)
 - [Footnotes](#footnotes)
 
@@ -63,27 +63,27 @@ The gameplay was made to be simple to grasp within short time, the battle phase 
 
 ##### Setup phase
 
-The setup phase is, as its name suggest a moment where the player is able to setup his towers. At the start of the phase the player will see their mana refilled and will have 5 more cards in their hand. At this moment the player will have to think about how to use their mana to place towers on the grid, (e.g: the player has an archer tower and a crossbow tower, they cost 2 and 3 respectively but the player only has 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+The setup phase is, as its name suggest a moment where the players is able to setup his towers. At the start of the phase the players will see their mana refilled and will have 5 more cards in their hand. At this moment the players will have to think about how to use their mana to place towers on the grid, (e.g: the players has an archer tower and a crossbow tower, they cost 2 and 3 respectively but the players only has 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
 
-When the player has finished his preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
+When the players has finished his preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
 
-At the end of the phase the player keep his cards, however, they can hold until 20 cards maximum, if the player has their hand full, new cards directly go to the discard pile, to avoid the player to be stuck, they can send directly card in his hand to the discard pile for free.
+At the end of the phase the players keep his cards, however, they can hold until 20 cards maximum, if the players has their hand full, new cards directly go to the discard pile, to avoid the players to be stuck, they can send directly card in his hand to the discard pile for free.
 
-Finally if the player's deck is empty, their discard pile is shuffled and put back in the pile.
+Finally if the players's deck is empty, their discard pile is shuffled and put back in the pile.
 
 ##### Play phase
 
-The play phase represent the phase where ennemies are coming, the towers attack nearby ennemies and the phase ends when all ennemies are killed, except for boss battles, if the boss is not killed after a certain amount of time, it calls reinforcement and every ennemies are twice as fast, it is to avoid a battle phase that last longer than expected. Finaly, during this phase, the player can use their remaining mana to use spell cards that they can temporarily enhance towers, slow or hurt ennemies.
+The play phase represent the phase where ennemies are coming, the towers attack nearby ennemies and the phase ends when all ennemies are killed, except for boss battles, if the boss is not killed after a certain amount of time, it calls reinforcement and every ennemies are twice as fast, it is to avoid a battle phase that last longer than expected. Finaly, during this phase, the players can use their remaining mana to use spell cards that they can temporarily enhance towers, slow or hurt ennemies.
 
 ## Design
 
 ## Mockup
 
-The image below is showing the interface during the play phase, on the bottom you can observe player's hand of card, on the right it's pile and on the left the discard pile, as the norm dictates.
+The image below is showing the interface during the play phase, on the bottom you can observe players's hand of card, on the right it's pile and on the left the discard pile, as the norm dictates.
 
-On the middle you can see the grid, this is where players can use their cards and create their maze, naturally this is where ennemies will appear and this is where they will be marching toward the castle.
+On the middle you can see the grid, this is where playerss can use their cards and create their maze, naturally this is where ennemies will appear and this is where they will be marching toward the castle.
 
-Now, for the interface part, on the castle's left you can see the player's mana, on the top, you can see as it follows : the artifact inventory, the number of wave, the pause button and finaly under the pause button there is a "new wave" button (not visible on the mockup), this button ends the setup phase, hovering it reveal which monsters will come and how many of them there will be.
+Now, for the interface part, on the castle's left you can see the players's mana, on the top, you can see as it follows : the artifact inventory, the number of wave, the pause button and finaly under the pause button there is a "new wave" button (not visible on the mockup), this button ends the setup phase, hovering it reveal which monsters will come and how many of them there will be.
 
 Finally on the left of the card you may have noticed there is a grey square, it is where we will put an almanach, it will contain a description of the towers' and  the ennemies' features and, if we have the time, their lore[^lore].
 
@@ -91,27 +91,26 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 
 ## Course of a game
 
-##### When the player starts the game:
+##### When the players starts the game:
 
-- The player open the executable
-- The player arrives on the main menue
-- The player select "new game"
+- The players open the executable
+- The players arrives on the main menue
+- The players select "new game"
   
-##### When the player starts a new game
+##### When the players starts a new game
 
-- The player arrives on the playable scene
+- The players arrives on the playable scene
 - The setup phase starts, the view is now aerial
-- The player use all his mana to place archer towers
-- The player pushes the "new wave" button"
-- The player sucessfully kill all of the ennemies
-- The setup phase come back, all his mana is refilled, the player now has 5 cards
-- The player pushes the "new wave" button
-- An ennemies sucessfuly pass through the player defenses and arrive at the castle, the player loses
-- The player come back to the main menu
+- The players use all his mana to place archer towers
+- The players pushes the "new wave" button"
+- The players sucessfully kill all of the ennemies
+- The setup phase come back, all his mana is refilled, the players now has 5 cards
+- The players pushes the "new wave" button
+- An ennemies sucessfuly pass through the players defenses and arrive at the castle, the players loses
+- The players come back to the main menu
 
 # Non-functionnal requirements
 
-- The player should be able to save it's advancement to resume later.
 - The interface have to be clear enough for children to understand.
 - The game must be responsive[^responsive] for all kind of computer screen (laptop, desk computer), with an acceptable resolution (the test must be readable)
 
