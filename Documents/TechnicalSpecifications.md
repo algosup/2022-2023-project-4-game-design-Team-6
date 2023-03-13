@@ -19,7 +19,7 @@
 - [1. Presentation](#1-presentation)
   - [1.1. Project Description](#11-project-description)
 - [2. Technologies Used](#2-technologies-used)
-  - [2.1. Unreal Engine \[WIP bullet points + and repetition\]](#21-unreal-engine-wip-bullet-points--and-repetition)
+  - [2.1. Unreal Engine](#21-unreal-engine)
 - [3. Game Presentation](#3-game-presentation)
   - [3.1. Game Description](#31-game-description)
   - [3.2. Game Mechanics](#32-game-mechanics)
@@ -56,7 +56,7 @@ The goal of this project is to create a video game with innovant ideas within 6 
 
 # 2. Technologies Used
 
-## 2.1. Unreal Engine [WIP bullet points + and repetition]
+## 2.1. Unreal Engine
 
 Unreal Engine is a game engine developed by Epic Games, famous games have been created using this engine, such as Fortnite, Gears of War, Rocket League and many others. This engine has some major advantages :
 
@@ -148,7 +148,7 @@ Regarding the art style, we chose the cutout art style, which is a style that is
 
 ## 4.2. Visuals
 
-As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will drawn **manually** by our team, but also the towers and the spells. 
+As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will be drawn **manually** by our team, but also the towers and the spells. 
 <br/>
 
 # 5. Audio
