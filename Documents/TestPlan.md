@@ -1,12 +1,12 @@
 <hr>
 
-<p align="center" style="font-weight: bold; font-size: 21px">The Card Kingdom</p>
-<p align="center" style="font-weight: bold; font-size: 18px">Test Plan</p>
+**<p align="center" style="font-size: 21px">The Card Kingdom</p>**
+**<p align="center" style="font-size: 18px">Test Plan</p>**
 <p align="center">Clémentine Curel</p>
 
 <br>
 
-<p align="center">Team:</p>
+**<p align="center">Team:</p>**
 <p align="center">Jason GROSSO, Aurélien Fernandez, Victor LEROY, Clément CATON</p>
 
 <br>
