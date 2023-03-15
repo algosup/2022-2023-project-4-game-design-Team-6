@@ -56,9 +56,9 @@ This test plan was designed to test the game "The Card Kingdom". It covers the U
 |Game|||
 ||Castle|Health points|
 ||Deck of cards|Modify and remove cards|
-||Cards|Choice, placing|
-||Spells|Attacks, placing|
-||Towers|Attacks, Health points, placing|
+||Cards|Choose, place|
+||Spells|Attacks, place|
+||Towers|Attacks, Health points, position|
 ||Enemies|Pathfinding[^path], attacks, health points|
 ||Pathfinding[^path]|Can't block the enemies path|
 
@@ -211,61 +211,4 @@ For each report, this information will be needed:
 [^ai]: AI stands for "Artificial Intelligence". It refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.
 
 [^mana]: This is a form of money on the game to be able to buy card during waves.
-
-
-
-1) Create test cases 
-    https://assets-global.website-files.com/5e9aa66fd3886aa2b4ec01ca/614094d7bc234f0f345abba6_j75-mosPUg83XJ4H-D0B6Yoh9_Tbogxsr2f-E_NCpVaT5Le_9ApbzWugffcTckN0AzlmSkm_aKTfQqVhiN5NzpHRwmNRYqpYWLgPT74MNmmoTP2inWWxqv1PsJpwOP-qFFcZG1pr%3Ds0.png
-
-2) Develop a test strategy
-The test strategy defines how you plan to implement testing. Your testers should all be working off the same game plan, so make sure every member of the team is aware of what they're supposed to be doing at any given time.
-
-1) Define the test objective
-Each test case should be linked to a test objective. The objective ensures every action is relevant and contributes toward making your software more valuable for customers. Test objectives can include things like:
-
-Testing known features
-Testing newly implemented features
-Performing exploratory tests
-Ensuring stability throughout the product lifecycle
-6) Choose testing tools
-You'll need to make sure you have the right software testing solution to perform your testing activities. Some of these tools might be software-based, while others may require physical resources like test machines. It's important to choose appropriate tools for each specific job and not to rely on a one-size-fits-all solution.
-
-7) Find bugs early
-Leave time in your planning document for 'bug fixing' sessions. These allow you to identify problems with the software early on before they become too problematic or expensive to fix. This makes them easier and cheaper to tackle. Check out any app security measures, use every feature, and seek out what doesn't work well. 
-
-8) Define your test criteria
-This should be part of the test case, but it's good to break it down separately. Test criteria are essentially your objectives broken down into smaller parts. They include specific information about how each objective will be met, which helps you track your testing progress.
-
-Suspension criteria are criteria that need to be met before testing can stop. For example, you may want to suspend testing if a certain number of bugs have been found or if the software is unable to run due to performance issues.
-
-Exit criteria are criteria that need to be met before testing can finish. For example, the test case should finish once each objective has been met and all bugs have been resolved.
-
-9) Resource planning
-In your software testing document, include a resource plan that lists the number of people required for the testing process. This should detail what each person's role is and any training they'll require to fulfill it effectively.
-
-
-Image source
-10) Plan your test environment
-In your test plan, include information about the environment where testing will take place, such as:
-
-Test hardware required for product testing.
-Sizing requirements for software and servers.
-Platforms supported by the product.
-Other essential information related to the environment that might affect your testing process. 
-11) Plan test team logistics
-Test management is one of the most important parts of implementing process. If you're not able to communicate with your testers effectively, their progress will suffer and your testing document won't be as useful as it could be.
-
-12) Schedule & estimation
-In your test plan, include a schedule that allows you to outline specific testing milestones and deadlines. Milestones may include the initial release of the product, internal testing sessions, public beta tests, or any other key points in time where your team needs to focus their efforts on testing.
-
-13) Test deliverables
-Your testing document should include a list of all the deliverables required for testing. These should be linked to the steps in your schedule so everyone knows exactly when they need to be ready for action.
-
-14) Test automation
-If your software is particularly complex and requires a vast number of test cases, you may want to consider software test automation.
-
-Automating the process means testers can accomplish more in less time, which boosts productivity and significantly reduces the overall cost of testing. You might even be able to utilize a mobile bot to speed up testing activities. 
-
-
-Image source 
 
