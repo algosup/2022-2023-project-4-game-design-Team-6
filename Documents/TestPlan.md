@@ -22,8 +22,8 @@
 - [Scope of Testing](#scope-of-testing)
 - [Risk Analysis](#risk-analysis)
 - [Scheduling and Test Approach](#scheduling-and-test-approach)
-	- [Pre-production phase: 27/02/2022 -\> 10/03/2023](#pre-production-phase-27022022---10032023)
-	- [Production phase: 13/03/2023 -\> 14/04/2023](#production-phase-13032023---14042023)
+	- [Pre-production phase](#pre-production-phase-27022022---10032023)
+	- [Production phase](#production-phase-13032023---14042023)
 - [Testing Tools](#testing-tools)
 	- [Hardware](#hardware)
 	- [Software](#software)
@@ -152,26 +152,27 @@ For each report, this information will be needed:
 - Index
 
 - Reporter
-	- The person reporting the issue
+    - The person reporting the issue
 
-- Created
-  - The date of the report
+- Date
+    - The date of the report
 
 - Description
-  - Description of the bug, as detailed as possible
+    - Description of the bug, as detailed as possible
 
 - Component
-  - From where the bug comes from
-  - Example: towers, enemies
-  - Help to see where the majority of issues are coming from.
+    - From where the bug comes from
+    - Example: towers, enemies
+    - Help to see where the majority of issues are coming from.
 
 - Steps
-  - Steps detailed as much as possible
+    - Steps detailed as much as possible
 
 - Assignee
 
 - Status
     - If the problem is 
+    	- To do
         - Open
         - In progress
         - Closed
@@ -184,13 +185,13 @@ For each report, this information will be needed:
     - Major -> Crash the game or question a feature
 
 - Additional content
-	- Screenshots
-	- Videos
-	- Additional information
+    - Screenshots
+    - Videos
+    - Additional information
 
 # Footnotes
 
-[^smart]: smart objectives
+[^smart]: A SMART objective is one that is specific, measurable, achievable, relevant, and time-bound.
 
 [^qa]: Quality Assurance
 
