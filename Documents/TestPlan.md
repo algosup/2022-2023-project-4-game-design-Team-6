@@ -11,7 +11,7 @@
 
 <br>
 
-<p align="center"> ALGOSUP, Group6. All Rights Reserved. </p>
+<p align="center"> ALGOSUP, Group 6. All Rights Reserved. </p>
 
 <hr>
 
@@ -143,6 +143,9 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 - [Gameanalytics](https://gameanalytics.com/)
 	- Organisations of the data found thanks to the testing.
 
+- [UnReal](https://www.unrealengine.com/en-US/solutions/games)
+	- Game engine
+	- Version: 4.27
 
 # Defect Management
 
