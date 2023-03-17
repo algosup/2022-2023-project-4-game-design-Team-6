@@ -176,11 +176,11 @@ For each report, this information will be needed:
 
 - Status
     - If the problem is 
-    	- To do
-        - Open
-        - In progress
-        - Closed
-        - Cancel
+    	  - To do
+        - Open -> The assignee is aware and tries to know where it comes from
+        - In progress -> The assignee works on it
+        - Closed -> The problem is resolved
+        - Cancel -> The problem doesn't need to be resolved
 
 - Severity
     - None -> Doesn't impact the project at all
