@@ -22,12 +22,13 @@
 - [Scope of Testing](#scope-of-testing)
 - [Risk Analysis](#risk-analysis)
 - [Scheduling and Test Approach](#scheduling-and-test-approach)
-	- [Pre-production phase](#pre-production-phase-27022022---10032023)
-	- [Production phase](#production-phase-13032023---14042023)
+  - [Pre-production phase: 27/02/2022 -\> 10/03/2023](#pre-production-phase-27022022---10032023)
+  - [Production phase: 13/03/2023 -\> 14/04/2023](#production-phase-13032023---14042023)
 - [Testing Tools](#testing-tools)
-	- [Hardware](#hardware)
-	- [Software](#software)
+  - [Hardware](#hardware)
+  - [Software](#software)
 - [Defect Management](#defect-management)
+- [Test Cases](#test-cases)
 - [Footnotes](#footnotes)
 
 
@@ -149,7 +150,7 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 
 # Defect Management
 
-To report bugs or defects effectively found in the project, a spreadsheet named "Bug Database" has been created. 
+To report bugs or defects effectively found in the project, a markdown file named "[Bug Database](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/BugDatabase.md)" has been created. 
 
 For each report, this information will be needed:
 - Index
@@ -191,6 +192,10 @@ For each report, this information will be needed:
     - Screenshots
     - Videos
     - Additional information
+
+# Test Cases
+
+All the test cases are in the markdown file [TestCases.md.](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/TestCases.md)
 
 # Footnotes
 
