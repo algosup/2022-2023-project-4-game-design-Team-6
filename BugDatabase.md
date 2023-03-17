@@ -1,4 +1,4 @@
-For more information on how it works: (Test plan)[https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Documents/Documents/TestPlan.md]
+For more information on how it works: [Test plan](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Documents/Documents/TestPlan.md)
 
 |Index|Reporter|Date|Description|Component|Steps|Assignee|Status|Severity|Additional content|
 |-|-|-|-|-|-|-|-|-|-|
