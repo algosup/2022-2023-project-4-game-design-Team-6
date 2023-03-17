@@ -37,3 +37,22 @@
 | Bug Database  | 0%  |
 | Level Completed  | 0%  |
 | Balance Done   | 0%  |
+
+## Week 3
+
+| KPI  |KPI Competion Percentages  |
+|---|---|
+| Functional Specification  | 100%  |
+| Technical Specification  | 100%  |
+| Test Plan  | 100%  |
+| Project Understood  | 100%  |
+| Project Architecture  | 100%  |
+| Design of the Playground  | 50%  |
+| Design of the Cards  | 20%  |
+| Design of the Monsters  | 33%  |
+| Variables Set  | 100%  |
+| Blueprint Done  | 15%  |
+| Test Passing  | 0%  |
+| Bug Database  | 100%  |
+| Level Completed  | 0%  |
+| Balance Done   | 0%  |

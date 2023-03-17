@@ -19,7 +19,7 @@
 - [1. Presentation](#1-presentation)
   - [1.1. Project Description](#11-project-description)
 - [2. Technologies Used](#2-technologies-used)
-  - [2.1. Unreal Engine \[WIP bullet points + and repetition\]](#21-unreal-engine-wip-bullet-points--and-repetition)
+  - [2.1. Unreal Engine](#21-unreal-engine)
 - [3. Game Presentation](#3-game-presentation)
   - [3.1. Game Description](#31-game-description)
   - [3.2. Game Mechanics](#32-game-mechanics)
@@ -38,7 +38,8 @@
 - [5. Audio](#5-audio)
   - [5.1. Sound Effects](#51-sound-effects)
   - [5.2. Music](#52-music)
-- [6. Glossary](#6-glossary)
+- [6. Minimum System Requirements](#6-minimum-system-requirements)
+- [7. Glossary](#7-glossary)
 
 
 
@@ -56,7 +57,7 @@ The goal of this project is to create a video game with innovant ideas within 6 
 
 # 2. Technologies Used
 
-## 2.1. Unreal Engine [WIP bullet points + and repetition]
+## 2.1. Unreal Engine
 
 Unreal Engine is a game engine developed by Epic Games, famous games have been created using this engine, such as Fortnite, Gears of War, Rocket League and many others. This engine has some major advantages :
 
@@ -112,7 +113,7 @@ The player will have to create a deck of 20 cards, and will have 6 cards in his 
 
 ### 3.2.6. Enemies
 
-The enemies will be the main threat for the player, they will have to be defeated in order to win the game. There will be different types of enemies, each one with their own characteristics. The enemies will follow the fastest path to the castle, and they will follow it until they reach it. The enemies will have different health points, speed, castle damage, armor defense and also special abilities that will be used to challenge the player. 
+The enemies will be the main threat for the player, they will have to be defeated in order to win the game. There will be different types of enemies, each one with their own characteristics. The enemies will have different health points, speed, castle damage, armor defense and also special abilities that will be used to challenge the player. The enemies will follow the fastest path to the castle, and they will follow it until they reach it, for that we are using pathfinding.
 
 <br/>
 
@@ -148,20 +149,39 @@ Regarding the art style, we chose the cutout art style, which is a style that is
 
 ## 4.2. Visuals
 
-As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will drawn **manually** by our team, but also the towers and the spells. 
+As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will be drawn **manually** by our team, but also the towers and the spells. 
 <br/>
 
 # 5. Audio
 
+All the audio parts have been created by our team, we used **Audacity** to create the sound effects and Shutterstock to find songs.
+
 ## 5.1. Sound Effects
 
+The sound effects will be used to give feedback to the player, for instance, when a tower is placed, or when an enemy is defeated. We will also use sound effects to give the player a sense of progression, for instance, when the player defeated an enemy wave. 
 <br/>
 
 ## 5.2. Music
 
+The songs will be used to create a more immersive experience, and to give the player a sense of progression. The songs will be used during the setup phase, the wave phase and if the players castle goes below 50 HP, in order to reinforce the danger feeling.
+
 <br/>
 
-# 6. Glossary
+# 6. Minimum System Requirements
+
+The minimun system requirements are not defined yet. We will update this section once we have more information about the game. But we plan to make it accessible to as many people as possible, so we will try to make it as light as possible.
+
+# 7. Glossary
+
+| **Term** | **Definition** |
+| :--- | :--- |
+| **DPS** | [Damage per second](https://en.wikipedia.org/wiki/Damage_per_second), refers to the damage that can be dealt from an entity each second |
+| [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) | A sub-genre of strategy video games where the goal is to defend a player's territories or possessions by obstructing the enemy attackers, usually achieved by placing defensive structures on or along their path of attack. |
+| [Pathfinding](https://en.wikipedia.org/wiki/Pathfinding) | The process of finding a path between multiple points, which can be in a graph or a grid. |
+
+
+
+
 
 
 
