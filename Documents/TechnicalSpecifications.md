@@ -112,7 +112,7 @@ The player will have to create a deck of 20 cards, and will have 6 cards in his 
 
 ### 3.2.6. Enemies
 
-The enemies will be the main threat for the player, they will have to be defeated in order to win the game. There will be different types of enemies, each one with their own characteristics. The enemies will follow the fastest path to the castle, and they will follow it until they reach it. The enemies will have different health points, speed, castle damage, armor defense and also special abilities that will be used to challenge the player. 
+The enemies will be the main threat for the player, they will have to be defeated in order to win the game. There will be different types of enemies, each one with their own characteristics. The enemies will have different health points, speed, castle damage, armor defense and also special abilities that will be used to challenge the player. The enemies will follow the fastest path to the castle, and they will follow it until they reach it, for that we are using pathfinding.
 
 <br/>
 
@@ -153,15 +153,30 @@ As mentionned above, we opted for a more "paperish" visual, all of the cards wil
 
 # 5. Audio
 
+All the audio parts have been created by our team, we used **Audacity** to create the sound effects and Shutterstock to find songs.
+
 ## 5.1. Sound Effects
 
+The sound effects will be used to give feedback to the player, for instance, when a tower is placed, or when an enemy is defeated. We will also use sound effects to give the player a sense of progression, for instance, when the player defeated an enemy wave. 
 <br/>
 
 ## 5.2. Music
 
+The songs will be used to create a more immersive experience, and to give the player a sense of progression. The songs will be used during the setup phase, the wave phase and if the players castle goes below 50 HP, in order to reinforce the danger feeling.
+
 <br/>
 
 # 6. Glossary
+
+| **Term** | **Definition** |
+| :--- | :--- |
+| **DPS** | [Damage per second](https://en.wikipedia.org/wiki/Damage_per_second), refers to the damage that can be dealt from an entity each second |
+| [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) | A sub-genre of strategy video games where the goal is to defend a player's territories or possessions by obstructing the enemy attackers, usually achieved by placing defensive structures on or along their path of attack. |
+| [Pathfinding](https://en.wikipedia.org/wiki/Pathfinding) | The process of finding a path between multiple points, which can be in a graph or a grid. |
+
+
+
+
 
 
 
