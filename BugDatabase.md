@@ -4,4 +4,5 @@ For more information on how it works: [Test plan](https://github.com/algosup/202
 |-|-|-|-|-|-|-|-|-|-|
 |1|Clémentine|10/03|TheCardKingdom could not be compiled on MacOS|Unreal or MacOS issue|At the opening of the projet in UnReal|Clément|To do|Medium|<img src="img/1miss.png" style="height:100px"><img src="img/1log.png" style="height:100px"><img src="img/1error.png" style="height:100px">|
 |2|Clement|13/03|bug with the cards, switching continuously|Cards|put the cursor in the exact middle of two cards|Clement|In progress|Medium|-|
+|3|Clement|17/03|When you select a card and you tried to selecte another one, both of them are at the same place|Cards|You click on a card to select it -> it goes on the left -> you click on another card -> it goes on the left but the first one don't go at the original place|Clément|In progress|Medium|-|
 |-|-|-|-|-|-|-|-|-|-|
