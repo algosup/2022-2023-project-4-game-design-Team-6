@@ -38,7 +38,8 @@
 - [5. Audio](#5-audio)
   - [5.1. Sound Effects](#51-sound-effects)
   - [5.2. Music](#52-music)
-- [6. Glossary](#6-glossary)
+- [6. Minimum System Requirements](#6-minimum-system-requirements)
+- [7. Glossary](#7-glossary)
 
 
 
@@ -166,7 +167,11 @@ The songs will be used to create a more immersive experience, and to give the pl
 
 <br/>
 
-# 6. Glossary
+# 6. Minimum System Requirements
+
+The minimun system requirements are not defined yet. We will update this section once we have more information about the game. But we plan to make it accessible to as many people as possible, so we will try to make it as light as possible.
+
+# 7. Glossary
 
 | **Term** | **Definition** |
 | :--- | :--- |
