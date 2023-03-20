@@ -20,11 +20,18 @@
         - [Setup phase](#setup-phase)
         - [Play phase](#play-phase)
   - [Design](#design)
-  - [Mockup](#mockup)
+    - [Mockup](#mockup)
   - [Course of a game](#course-of-a-game)
         - [When the players starts the game:](#when-the-players-starts-the-game)
         - [When the players starts a new game](#when-the-players-starts-a-new-game)
-  - [Visual of a game's course](#visual-of-a-games-course)
+  - [Visuals of a game's course](#visuals-of-a-games-course)
+    - [Main menu](#main-menu)
+    - [Setup phase - without actions](#setup-phase---without-actions)
+    - [Setup phase - Selecting a card](#setup-phase---selecting-a-card)
+    - [Setup phase - Selecting and placing a tower](#setup-phase---selecting-and-placing-a-tower)
+    - [Setup phase - A tower is placed in the middle](#setup-phase---a-tower-is-placed-in-the-middle)
+    - [Battle phase - Ennemies appear](#battle-phase---ennemies-appear)
+    - [Battle phase - Castle takes damages](#battle-phase---castle-takes-damages)
 - [Non-functionnal requirements](#non-functionnal-requirements)
 - [Footnotes](#footnotes)
 
@@ -78,13 +85,13 @@ The play phase represent the phase where ennemies are coming, the towers attack 
 
 ## Design
 
-## Mockup
+### Mockup
 
 The image below is showing the interface during the play phase, on the bottom you can observe players's hand of card, on the right it's pile and on the left the discard pile, as the norm dictates.
 
 On the middle you can see the grid, this is where players can use their cards and create their maze, naturally this is where ennemies will appear and this is where they will be marching toward the castle.
 
-Now, for the interface part, on the castle's left you can see the players's mana, on the top, you can see as it follows : the artifact inventory, the number of wave, the pause button and finaly under the pause button there is a "new wave" button (not visible on the mockup), this button ends the setup phase, hovering it reveal which monsters will come and how many of them there will be.
+Now, for the interface part, on the castle's left you can see the players's mana, on the top, you can see as it follows : the artifact inventory, the number of wave, the pause button and finaly under the pause button there is a "new wave" button, this button ends the setup phase, hovering it reveal which monsters will come and how many of them there will be.
 
 Finally on the left of the card you may have noticed there is a grey square, it is where we will put an almanach, it will contain a description of the towers' and  the ennemies' features and, if we have the time, their lore[^lore].
 
@@ -95,7 +102,7 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 ##### When the players starts the game:
 
 - The players open the executable
-- The players arrive on the main menue
+- The players arrive on the main menu
 - The players select "new game"
   
 ##### When the players starts a new game
@@ -110,10 +117,35 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 - An ennemies sucessfuly pass through the players defenses and arrive at the castle, the players loose
 - The players come back to the main menu
 
-## Visual of a game's course
+## Visuals of a game's course
 
-<img src="Images/Menu.png">
+### Main menu
 
+<img src="Images/Menu.png" width=90%>
+
+### Setup phase - without actions
+
+<img src="Images/Setup1.png" width=90%>
+
+### Setup phase - Selecting a card
+
+<img src="Images/Setup2.png" width=90%>
+
+### Setup phase - Selecting and placing a tower
+
+<img src="Images/Setup3.png" width=90%>
+
+### Setup phase - A tower is placed in the middle
+
+<img src="Images/Setup4.png" width=90%>
+
+### Battle phase - Ennemies appear
+
+<img src="Images/Battle1.png" width=90%>
+
+### Battle phase - Castle takes damages
+
+<img src="Images/Battle2.png" width=90%>
 
 
 # Non-functionnal requirements
