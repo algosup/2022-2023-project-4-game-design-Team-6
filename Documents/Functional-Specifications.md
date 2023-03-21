@@ -20,6 +20,12 @@
         - [Setup phase](#setup-phase)
         - [Play phase](#play-phase)
   - [Design](#design)
+    - [Graphic style](#graphic-style)
+      - [Description](#description)
+      - [examples](#examples)
+        - [Archer tower](#archer-tower)
+        - [Skeleton enemy](#skeleton-enemy)
+        - [Castle](#castle)
     - [Mockup](#mockup)
   - [Course of a game](#course-of-a-game)
         - [When the players starts the game:](#when-the-players-starts-the-game)
@@ -71,7 +77,7 @@ The gameplay was made to be simple to grasp within short time, the battle phase 
 
 ##### Setup phase
 
-The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of the phase the players will see their mana refilled and will have 5 more cards in their hand. At this moment the players will have to think about how to use their mana to place towers on the grid, (e.g: the players have an archer tower and a crossbow tower, they cost 2 and 3 respectively but the players only have 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of the phase the players [will see their mana refilled] and will have 5 more cards in their hand. At this moment the players will have to think about how to use their mana to place towers on the grid, (e.g: the players have an archer tower and a crossbow tower, they cost 2 and 3 respectively but the players only have 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
 
 When the players have finished their preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
 
@@ -84,6 +90,28 @@ Finally if the players's deck is empty, their discard pile is shuffled and put b
 The play phase represent the phase where ennemies are coming, the towers attack nearby ennemies and the phase ends when all ennemies are killed, except for boss battles, if the boss is not killed after a certain amount of time, it calls reinforcement and every ennemies are twice as fast, it is to avoid a battle phase that last longer than expected. Finaly, during this phase, the players can use their remaining mana to use spell cards that they can temporarily enhance towers, slow or hurt ennemies.
 
 ## Design
+
+### Graphic style
+
+#### Description
+
+Our game will use a style named "paper style", every thing is represented as papers and drawings, for example an enemy is a drawing standing on a stick, the castle is a card castle, and mana are small paper balls.
+
+#### examples
+
+##### Archer tower
+
+<img src="Images/Archer.png" width=60% >
+
+##### Skeleton enemy
+
+<img src="Images/Skel.png" width=80%>
+
+##### Castle
+
+<img src="Images/Castle.png" width=50%>
+
+
 
 ### Mockup
 
