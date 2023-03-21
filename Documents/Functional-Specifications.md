@@ -77,7 +77,9 @@ The gameplay was made to be simple to grasp within short time, the battle phase 
 
 ##### Setup phase
 
-The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of the phase the players [will see their mana refilled] and will have 5 more cards in their hand. At this moment the players will have to think about how to use their mana to place towers on the grid, (e.g: the players have an archer tower and a crossbow tower, they cost 2 and 3 respectively but the players only have 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of the phase the players will see their mana refilled, gain one additional mana and will have 5 more cards in their hand. At this moment the players will have to think about how to use their mana to place towers on the grid, (e.g: the players have an archer tower and a crossbow tower, they cost 2 and 3 respectively but the players only have 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+
+Something to note is that at the start of the first wave the players have only 3 mana and as said previously after each wave the players gain 1 additional mana until 10 mana maximum.
 
 When the players have finished their preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
 
@@ -110,8 +112,6 @@ Our game will use a style named "paper style", every thing is represented as pap
 ##### Castle
 
 <img src="Images/Castle.png" width=50%>
-
-
 
 ### Mockup
 
