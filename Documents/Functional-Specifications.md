@@ -83,7 +83,7 @@ Something to note is that at the start of the first wave the players have only 3
 
 When the players have finished their preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
 
-At the end of the phase the players keep their cards, however, they can hold until 20 cards maximum, if the players have their hand full, new cards directly go to the discard pile, to avoid the players to be stuck, they can send directly card in their hand to the discard pile for free.
+At the end of the phase the remaining players' cards will go to the discard pile also, they can hold until 20 cards maximum, if the players have their hand full, new cards directly go to the discard pile, to avoid the players to be stuck, they can send directly card in their hand to the discard pile for free.
 
 Finally if the players's deck is empty, their discard pile is shuffled and put back in the pile.
 
