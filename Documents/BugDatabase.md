@@ -9,5 +9,5 @@ For more information on how it works: [Test plan](TestPlan.md)
 |5|Clément|17/03|Instead of creating a tower, it creates a tower on every frame|Tower|Place a tower|Clément|Major|-|Closed||
 |6|Clémentine|17/03|Multiple .DS_Store find in the GitHub|Documents|On the GitHub Main, and the Document file, and Document/Images|Victor|None|<img src="Images/6main.png" style="weight:100px"><img src="Images/6doc.png" style="weight:100px"><img src="Images/6img.png" style="weight:100px">|Closed|Victor delete the files and update the gitignore file.|
 |7|Clément|21/03|The wrong tower place|Tower|Place a card to have a tower|Clément|Major|-|Closed||
-|8|Clément|21/03|You can place a tower before selecting the card|Card/Tower|Click on the grid without selecting a card, then click on a card. A tower will appear at the location of the click on the grid|Clément|Medium|-|In progress||
+|8|Clément|21/03|You can place a tower before selecting the card|Card/Tower|Click on the grid without selecting a card, then click on a card. A tower will appear at the location of the click on the grid|Clément|Medium|-|To do||
 ||||||||||||
