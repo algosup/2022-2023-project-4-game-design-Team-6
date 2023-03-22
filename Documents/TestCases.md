@@ -137,18 +137,18 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|**Place** tower like that <img src="img/004test.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
-|2|**Reload** the game then **place** tower like that <img src="img/004diag.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
-|3|**Reload** the game then **place** tower like that <img src="img/004zig.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
-|4|**Reload** the game then **place** tower like that <img src="img/004front.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
-|5|**Reload** the game then **place** tower like that <img src="img/004test.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
-|6|**Reload** the game and **place** tower like that <img src="img/004right.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004rightres.png" style="height:100px">|To do|
-|7|**Reload** the game then **place** tower like that <img src="img/004rig.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004rigres.png" style="height:100px">|To do|
-|8|**Reload** the game then **place** tower like that <img src="img/004forward.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004forres.png" style="height:100px">|To do|
-|9|**Reload** the game then **place** tower like that <img src="img/004lef.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004lefres.png" style="height:100px">|To do|
-|10|**Reload** the game then **place** tower like that <img src="img/004left.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004leftres.png" style="height:100px">|To do|
-|11|**Reload** the game then **place** tower like that <img src="img/004recess.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004recessres.png" style="height:100px">|To do|
-|12|**Reload** the game then **place** tower like that <img src="img/004zag.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="img/004zagres.png" style="height:100px">|To do|
+|1|**Place** tower like that <img src="Images/004test.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
+|2|**Reload** the game then **place** tower like that <img src="Images/004diag.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
+|3|**Reload** the game then **place** tower like that <img src="Images/004zig.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
+|4|**Reload** the game then **place** tower like that <img src="Images/004front.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
+|5|**Reload** the game then **place** tower like that <img src="Images/004test.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
+|6|**Reload** the game and **place** tower like that <img src="Images/004right.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004rightres.png" style="height:100px">|To do|
+|7|**Reload** the game then **place** tower like that <img src="Images/004rig.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004rigres.png" style="height:100px">|To do|
+|8|**Reload** the game then **place** tower like that <img src="Images/004forward.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004forres.png" style="height:100px">|To do|
+|9|**Reload** the game then **place** tower like that <img src="Images/004lef.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004lefres.png" style="height:100px">|To do|
+|10|**Reload** the game then **place** tower like that <img src="Images/004left.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004leftres.png" style="height:100px">|To do|
+|11|**Reload** the game then **place** tower like that <img src="Images/004recess.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004recessres.png" style="height:100px">|To do|
+|12|**Reload** the game then **place** tower like that <img src="Images/004zag.png" style="height:100px"> And click on the play button|The enemies should follow the arrow <img src="Images/004zagres.png" style="height:100px">|To do|
 
 
 **Expected Results**: All actions should result in the expected behaviour of the enemies without any unwanted behaviour.

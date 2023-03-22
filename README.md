@@ -12,4 +12,8 @@ Documentation Links:
 
 [One Sheet Document](/Documents/card%20Kingdom%20One%20sheet.pdf)
 
-[Test Plan](/Documents/TestPlan.md)
+[Test Plan](Documents/TestPlan.md)
+
+[Test Cases](Documents/TestCases.md)
+
+[Bug Database](Documents/BugDatabase.md)
