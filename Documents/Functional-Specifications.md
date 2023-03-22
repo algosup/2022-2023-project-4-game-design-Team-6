@@ -103,11 +103,11 @@ Our game will use a style named "paper style", every thing is represented as pap
 
 ##### Archer tower
 
-<img src="Images/Archer.png" width=60% >
+<img src="Images/archer.png" width=60% >
 
 ##### Skeleton enemy
 
-<img src="Images/Skel.png" width=80%>
+<img src="Images/skel.png" width=80%>
 
 ##### Castle
 
