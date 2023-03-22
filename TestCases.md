@@ -246,6 +246,7 @@
 
 <!-- saving set up phase -> no -->
 <!-- saving during a wave -> ? -->
+<!-- save at the end of the level -->
 
 ## Keyboard Test 009
 
@@ -335,7 +336,16 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-
+|1|**Click** on a tower card|The card should go to the left|To do|
+|2|**Click** on the grid to lace the tower|A tower should be placed in the square you clicked on|To do|
+|3|**Click** on a spell card|The card should go to the left|To do|
+|4|**Click** on the tower|The tower should be affects by the card|To do|
+|5|**Click** on a spell card|The card should go to the left|To do|
+|6|**Click** on a the grid, where there is no tower or enemies|the card should affects the zone|To do|
+|7|**Click** on a spell card|The card should go to the left|To do|
+|8|**Click** on an enemie|The card should affects the enemie|To do|
+|9|**Click** on a spell card|The card should go to the left|To do|
+|10|**Click** where there are multiple enemies|The card should affects the enemies|To do|
 
 **Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
 
@@ -347,21 +357,16 @@
 
 **Environment**: UnReal 4.27
 
-**Preconditions**: Load into the game with the following settings: Wave 2, set-up phase
+**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase
 
 **Test Steps**:
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
+|1||||
 
 
 **Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
-- cards are kept
-- auto new crad + 5
-- max 20 card
-- if > 20 -> card to the discrad pile
-- after can thraw card
-- Finally if the players's deck is empty, their discard pile is shuffled and put back in the pile.
 
 ## Damage saved 012
 
@@ -390,12 +395,16 @@
 
 **Environment**: UnReal 4.27
 
-**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase finished with towers
+**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase, have 3 mana
 
 **Test Steps**:
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
+|1|**Spend** the three mana on a card and place it on the grid|Your mana should be at 0 and have a tower placed|To do|
+|2|**Pass** the wave and **observe** how mana you have at the new set-up phase|You should have 1 mana|To do|
+|3|**Quit** the game and **restart** it|You should restart at the begining of the game|To do|
+|4|**Don't** spend mana and **pass** the wave|You should have 4 mana during the second set-up phase|To do|
 
 
 **Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
@@ -414,6 +423,7 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
+-> is links go to the right place
 
 
 **Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
