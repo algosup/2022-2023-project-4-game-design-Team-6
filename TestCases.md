@@ -27,13 +27,12 @@
   - [Tower Attacks 005](#tower-attacks-005)
   - [Castle destroy 006](#castle-destroy-006)
   - [Pause Test 007](#pause-test-007)
-  - [Save Test 008](#save-test-008)
-  - [Keyboard Test 009](#keyboard-test-009)
-  - [Place Spell Card 010](#place-spell-card-010)
-  - [Get New Cards 011](#get-new-cards-011)
-  - [Damage saved 012](#damage-saved-012)
-  - [Mana Management 013](#mana-management-013)
-  - [Menu Navigation 014](#menu-navigation-014)
+  - [Keyboard Test 008](#keyboard-test-008)
+  - [Place Spell Card 09](#place-spell-card-09)
+  - [Get New Cards 010](#get-new-cards-010)
+  - [Damage saved 011](#damage-saved-011)
+  - [Mana Management 012](#mana-management-012)
+  - [Menu Navigation 013](#menu-navigation-013)
 
 </details>
 
@@ -55,22 +54,22 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|Observe the cards **without touching** them|Nothing should happen|To do|
-|2|**Left** click on the first card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|To do|
-|3|**Left** click on the same card (**short press**)|The card must return to its initial place and be smaller|To do|
-|4|**Right** click on a card (**short press**)|The card should do nothing|To do|
-|5|**Left** click on the last card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|To do|
-|6|**Left** click on another card (**short press**)|The first card must return to its initial place and be smaller. The second card must be at the middle right of the screen and be bigger|To do|
-|7|**Hovering** the card with the cursor|Nothing should happen|To do|
-|8|**Left** click on a card (**long press**)|The card should teleport itself to the middle left of the screen and be bigger|To do|
+|1|Observe the cards **without touching** them|Nothing should happen|Works|
+|2|**Left** click on the first card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|Works|
+|3|**Left** click on the same card (**short press**)|The card must return to its initial place and be smaller|Works|
+|4|**Right** click on a card (**short press**)|The card should do nothing|Works|
+|5|**Left** click on the last card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|Works|
+|6|**Left** click on another card (**short press**)|The first card must return to its initial place and be smaller. The second card must be at the middle right of the screen and be bigger|Works|
+|7|**Hovering** the card with the cursor|Nothing should happen|Works|
+|8|**Left** click on a card (**long press**)|The card should teleport itself to the middle left of the screen and be bigger|Works|
 |9|**Left** click on another card (**long press**)|The first card must return to its initial place and be the same size as the other. The second card must be at the middle left of the screen and be bigger|To do|
-|10|**Left** click on the card selected(on right)(**long press**)|The card must return to its original place and have its original size|To do|
+|10|**Left** click on the card selected(on left)(**long press**)|The card must return to its original place and have its original size|To do|
 |11|**Double left** click on a card with a card under|The first card must go to the middle left and be bigger, followed by the card under, and the first card should return to its initial place with its initial size|To do|
 |12|**Double left** click on the selected card|The card must return to its initial place with the initial size|To do|
 |13|**Double left** click on a card with no card under|The card must go to the left and be bigger|To do|
 
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
 
 ##  Place Tower Card 002
@@ -98,7 +97,7 @@
 |9|**Double left** click on a tower|Nothing should happen|To do|
 |10|**Right** click on a tower|Nothing should happen|To do|
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
 ## Enemies Coming 003
 
@@ -108,20 +107,20 @@
 
 **Environment**: UnReal 4.27
 
-**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase whithout tower
+**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase without a tower
 
 **Test Steps**:
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
 |1|**Right** click on the play button|Nothing should happen|To do|
-|2|**Left** click on the play button|Sounds to let us know it starts, five new cards appears on your deck|To do|
+|2|**Left** click on the play button|Sounds to let us know it starts, five new cards appear on your deck|To do|
 |3|**Wait** and click on **nothing**|The enemies should start to arrive|To do|
-|4|**Left** click on enemies|Nothing should change. The enemies should continue to move straight forward to the castle and disappear when leaving the grid|To do|
-|5|**Double left** click on enemies|Nothing should change. The enemies should continue to move straight forward to the castle and disappear when leaving the grid|To do|
-|6|**Right** click on enemies|Nothing should change. The enemies should continue to move straight forward to the castle and disappear when leaving the grid|To do|
+|4|**Left** click on enemies|Nothing should change. The enemies should continue to move straight forward and disappear when leaving the grid|To do|
+|5|**Double left** click on enemies|Nothing should change. The enemies should continue to move straight forward and disappear when leaving the grid|To do|
+|6|**Right** click on enemies|Nothing should change. The enemies should continue to move straight forward and disappear when leaving the grid|To do|
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
 
 ## Enemies path 004
@@ -173,15 +172,15 @@
 |2|**Click** on the **Start** button|Goblins should arrive|Todo|
 |3|**Observe** if the tower attack the enemies|The tower should throw projectile at enemies|To do|
 |4|**Count** the number of projectile a **goblin** receive before dying|It should receive 6 projectiles (Damage = 10, Goblin HP = 60)|To do|
-|5|**Observe** if the wave finish by itself|When there is no more enemies on the grid, the wave shoul stop and go to the next set up phase|To do|
-|5|**Quit** and **reload** the game|You shoul arrive on the first set up phase of a game|To do|
+|5|**Observe** if the wave finishes by itself|When there are no more enemies on the grid, the wave should stop and go to the next set-up phase|To do|
+|5|**Quit** and **reload** the game|You should arrive on the first set-up phase of a game|To do|
 |6|**Place** an **Bomb Tower** in the middle of the grid.|A bomb tower should be placed|To do|
 |7|**Click** on the **Start** button|Goblins should arrive|Todo|
 |8|**Observe** if the tower attack the enemies|The tower should throw projectile at enemies|To do|
 |9|**Count** the number of projectile a **goblin** receive before dying|It should receive 4 projectiles (Damage = 15, Goblin HP = 60)|To do|
-|10|**Observe** if the wave finish by itself|When there is no more enemies on the grid, the wave shoul stop and go to the next set up phase|To do|
+|10|**Observe** if the wave finishes by itself|When there are no more enemies on the grid, the wave should stop and go to the next set-up phase|To do|
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
 ## Castle destroy 006
 
@@ -191,23 +190,23 @@
 
 **Environment**: UnReal 4.27
 
-**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase finished without tower
+**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase finished without a tower
 
 **Test Steps**:
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|Let the enemies go to the castle|The enemies should inflict damage to the castle and disappear. One goblin inflicts five damage. The wave should finish when there are no more enemies and the game should go to the second set up phase|To do|
+|1|Let the enemies go to the castle|The goblin should inflict five damage and disappear. The wave should finish when there are no more enemies, and the game should go to the second set-up phase|To do|
 |2|**Press** the start button without placing a tower|A new wave should start|To do|
-|3|**Repeat** the two previous steps till you lose the game | You should lose the game when the castle has taken 100 damage. The goblin and the skeleton inflict 5 damage. The game should end with a "Game over" message|To do|
+|3|**Repeat** the two previous steps till you lose the game | You should lose the game when the castle has taken 100 damage. The goblin and the skeleton inflict five damage. The game should end with a "Game over" message|To do|
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
 ## Pause Test 007
 
 **Test Case ID**: 007
 
-**Test Title**: Pause during the  game
+**Test Title**: Pause during the game
 
 **Environment**: UnReal 4.27
 
@@ -223,34 +222,12 @@
 |4|During the wave, **click** on the pause button|The pause menu should appear, and the game should be on pause|To do|
 |5|**Click** on the resume button|The pause menu should disappear, and the game should restart from where you paused|To do|
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
 
-## Save Test 008
+## Keyboard Test 008
 
 **Test Case ID**: 008
-
-**Test Title**: Save test
-
-**Environment**: UnReal 4.27
-
-**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase
-
-**Test Steps**:
-
-|Step|Instructions|Expected behaviour|Status|
-|----|------------|------------------|------|
-
-
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
-
-<!-- saving set up phase -> no -->
-<!-- saving during a wave -> ? -->
-<!-- save at the end of the level -->
-
-## Keyboard Test 009
-
-**Test Case ID**: 009
 
 **Test Title**: Keyboard test
 
@@ -319,12 +296,12 @@
 
 
 
-**Expected Results**: All button presses should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All button presses should result in the expected movements without unwanted behaviour.
 
 
-## Place Spell Card 010
+## Place Spell Card 09
 
-**Test Case ID**: 010
+**Test Case ID**: 09
 
 **Test Title**: Place spell card
 
@@ -341,17 +318,17 @@
 |3|**Click** on a spell card|The card should go to the left|To do|
 |4|**Click** on the tower|The tower should be affects by the card|To do|
 |5|**Click** on a spell card|The card should go to the left|To do|
-|6|**Click** on a the grid, where there is no tower or enemies|the card should affects the zone|To do|
+|6|**Click** on the grid, where there is no tower or enemies|the card should affect the zone|To do|
 |7|**Click** on a spell card|The card should go to the left|To do|
 |8|**Click** on an enemie|The card should affects the enemie|To do|
 |9|**Click** on a spell card|The card should go to the left|To do|
 |10|**Click** where there are multiple enemies|The card should affects the enemies|To do|
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
-## Get New Cards 011
+## Get New Cards 010
 
-**Test Case ID**: 011
+**Test Case ID**: 010
 
 **Test Title**: Get new cards
 
@@ -363,14 +340,16 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1||||
+|1|**Check** the number of cards|You should have 5 cards|To do|
+|2|Click on the **new wave** button|A wave should start and end when there are no more enemies|To do|
+|3|**Observe** the cards|Your previous cards should have been replaced pas 5 new ones|To do|
 
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
-## Damage saved 012
+## Damage saved 011
 
-**Test Case ID**: 012
+**Test Case ID**: 011
 
 **Test Title**: Damage saved
 
@@ -382,20 +361,28 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-- see if the castle still have the damage take in the previous wave
+|1|Let the enemies go to the castle|Enemies should go to the castle and inflict damage. You should arrive to the second set-up phase|To do|
+|2|Check the **number of health point** of the castle|It should be (100 - number of enemies*5)|To do|
+|3|Click on the **next wave** button|A new wave should start|To do|
+|4|Let the enemies go to the castle|Enemies should go to the castle and inflict damage. You should arrive to the third set-up phase|To do|
+|5|Check the **number of health point** of the castle|It should be (100 - number of enemies*5)|To do|
+|6|Click on the **pause** buttton|The pause menu should open|To do|
+|7|Click on the **main menu** button|You should arrive in the main menu|To do|
+|8|Click on the **continue** button|You should arrive on the third set-up phase and having the same number of health points on the castle as before.|To do|
+|9|**Close** the game and **reopen** it|The game should close and open to the main menu|To do|
+|10|Click on the **continue** button|You should arrive on the third set-up phase and having the same number of health points on the castle as before.|To do|
 
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+## Mana Management 012
 
-## Mana Management 013
-
-**Test Case ID**: 013
+**Test Case ID**: 012
 
 **Test Title**: Mana management
 
 **Environment**: UnReal 4.27
 
-**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase, have 3 mana
+**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase, have three mana
 
 **Test Steps**:
 
@@ -403,27 +390,34 @@
 |----|------------|------------------|------|
 |1|**Spend** the three mana on a card and place it on the grid|Your mana should be at 0 and have a tower placed|To do|
 |2|**Pass** the wave and **observe** how mana you have at the new set-up phase|You should have 1 mana|To do|
-|3|**Quit** the game and **restart** it|You should restart at the begining of the game|To do|
+|3|**Quit** the game and **restart** it|You should restart at the beginning of the game|To do|
 |4|**Don't** spend mana and **pass** the wave|You should have 4 mana during the second set-up phase|To do|
 
 
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
-## Menu Navigation 014
+## Menu Navigation 013
 
-**Test Case ID**: 014
+**Test Case ID**: 013
 
 **Test Title**: Menu navigation
 
 **Environment**: UnReal 4.27
 
-**Preconditions**: Load into the game with the following settings: Wave 1, set-up phase finished with towers
+**Preconditions**: Load into the game with the following settings: Main menu
 
 **Test Steps**:
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
--> is links go to the right place
+|1|Click on the **Quit** button|The game should close|To do|
+|2|**Reopen** the game|You should arrive on the main menu|To do|
+|3|Click on the **New Game** button|The game should start, and you should arrive on the first set-up phase|To do|
+|4|Click on the **pause** button|The game should be in pause, and the pause menu should appear|To do|
+|5|Click on the **resume** button|You should arrive at the same set-up phase as before|To do|
+|6|Click on the **pause** button|The game should be in pause, and the pause menu should appear|To do|
+|7|Click on the **settings** button|You should arrive in the settings|To do|
+|8|Clisk on the **return** button|You should be back to the pause menu|To do|
+|9|Click on the **main page** button|You should arrive on the main page|To do|
 
-
-**Expected Results**: All actions should result in the expected movements without any unwanted behaviour.
+**Expected Results**: All actions should result in the expected movements without unwanted behaviour.
