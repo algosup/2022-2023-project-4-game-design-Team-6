@@ -52,8 +52,8 @@ This test plan was designed to test the game "The Card Kingdom". It covers the U
 ||User-friendly|Avoid complex features|
 ||Design|Coherent design|
 ||Controls|Easy to manupulate|
-||Menu|Less than 3 click to go from a menu to an other|
-|||Access the game, leave the game, settings|
+||Menu|Less than three clicks to go from one menu to another |
+|||Access the game, leave the game, and settings|
 |Game|||
 ||Castle|Health points|
 ||Deck of cards|Modify and remove cards|
@@ -106,7 +106,7 @@ Through the white bow testing, three methods:
 
 |Name|Description|When to use|
 |----|-----------|-----------|
-|Open for testing|Signal when a feature is open for testing by marking them with an "oft" after the name|Always|
+|Open for testing|Signal when a feature is open for testing by marking them with an "OFT" after the name|Always|
 |Smoke testing|Smoke testing is all about verifying stability after a code update|Every day of the project|
 |Regression game testing|Make sure that the update has not adversely affected existing functionality|During development, post-launch period|
 
@@ -127,13 +127,13 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 ## Software
 
 - [Modl](https://modl.ai/)
-  - modl : test
+  - modl: test
   - Exploratory Bot
   - Diverse states and events
   - UnReal plugin
   - Detailed report
   - Will be used to detect bugs or unwanted functionalities.
-  - Example: Determine if there is a problem in the positioning of the towers, or in the attacks.
+  - Example: Determine if there is a problem in the positioning of the towers or the attacks.
 
 - [Machinations](https://machinations.io/)
 
@@ -142,11 +142,11 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
   - Example: Determine if there is enough resources (mana[^mana]) at the start of a wave.
 
 - [Gameanalytics](https://gameanalytics.com/)
-	- Organisations of the data found thanks to the testing.
+  - Organisations of the data found thanks to the testing.
 
 - [UnReal](https://www.unrealengine.com/en-US/solutions/games)
-	- Game engine
-	- Version: 4.27
+  - Game engine
+  - Version: 4.27
 
 # Defect Management
 
@@ -174,17 +174,9 @@ For each report, this information will be needed:
 
 - Assignee
 
-- Status
-    - If the problem is 
-    	  - To do
-        - Open -> The assignee is aware and tries to know where it comes from
-        - In progress -> The assignee works on it
-        - Closed -> The problem is resolved
-        - Cancel -> The problem doesn't need to be resolved
-
 - Severity
     - None -> Doesn't impact the project at all
-    - Low -> Small impact, 
+    - Low -> Small impact
     - Medium -> Impact a single feature
     - Major -> Crash the game or question a feature
 
@@ -193,13 +185,26 @@ For each report, this information will be needed:
     - Videos
     - Additional information
 
+- Status
+    - If the problem is 
+        - To do
+        - Open -> The assignee is aware and tries to know where it comes from
+        - In progress -> The assignee works on it
+        - Closed -> The problem is resolved
+        - Cancel -> The problem does not need to be resolved
+
+- Solution
+  - How was the problem resolved?
+
 # Test Cases
 
 All the test cases are in the markdown file [TestCases.md.](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/TestCases.md)
 
+<!-- All the reports of those tests will be there [TestReport]() -->
+
 # Footnotes
 
-[^smart]: A SMART objective is one that is specific, measurable, achievable, relevant, and time-bound.
+[^smart]: A SMART objective is specific, measurable, achievable, relevant, and time-bound.
 
 [^qa]: Quality Assurance
 
@@ -219,5 +224,5 @@ All the test cases are in the markdown file [TestCases.md.](https://github.com/a
 
 [^ai]: AI stands for "Artificial Intelligence". It refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.
 
-[^mana]: This is a form of money on the game to be able to buy card during waves.
+[^mana]: This is a form of money in the game to be able to buy cards during waves.
 
