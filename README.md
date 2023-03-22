@@ -2,12 +2,14 @@
 
 Documentation Links:
 
-[Functional Specifications](/Documents/Functional-Specifications.md);
+[Functional Specifications](/Documents/Functional-Specifications.md)
 
-[Technical Specifications](/Documents/TechnicalSpecifications.md);
+[Technical Specifications](/Documents/TechnicalSpecifications.md)
 
-[KPIs](/Documents/KPIs.md);
+[KPIs](/Documents/KPIs.md)
 
-[Weekly Reports](/Documents/Weekly_Reports.md);
+[Weekly Reports](/Documents/Weekly_Reports.md)
 
-[One Sheet Document](/Documents/card%20Kingdom%20One%20sheet.pdf);
+[One Sheet Document](/Documents/card%20Kingdom%20One%20sheet.pdf)
+
+[Test Plan](/Documents/TestPlan.md)
