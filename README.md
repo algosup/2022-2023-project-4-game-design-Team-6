@@ -16,4 +16,4 @@ Documentation Links:
 
 [Test Cases](Documents/TestCases.md)
 
-[Bug Database](Documents/BugDatabase.md)
+[Bug Database / GitHub issues](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/issues)
