@@ -52,21 +52,21 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
-|1|Observe the cards **without touching** them|Nothing should happen|Works|
-|2|**Left** click on the first card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|Works|
-|3|**Left** click on the same card (**short press**)|The card must return to its initial place and be smaller|Works|
-|4|**Right** click on a card (**short press**)|The card should do nothing|Works|
-|5|**Left** click on the last card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|Works|
-|6|**Left** click on another card (**short press**)|The first card must return to its initial place and be smaller. The second card must be at the middle right of the screen and be bigger|Works|
-|7|**Hovering** the card with the cursor|Nothing should happen|Works|
-|8|**Left** click on a card (**long press**)|The card should teleport itself to the middle left of the screen and be bigger|Works|
-|9|**Left** click on another card (**long press**)|The first card must return to its initial place and be the same size as the other. The second card must be at the middle left of the screen and be bigger|Works|
-|10|**Left** click on the card selected(on left)(**long press**)|The card must return to its original place and have its original size|Works|
-|11|**Double left** click on a card with a card under|The first card must go to the middle left and be bigger, followed by the card under, and the first card should return to its initial place with its initial size|Works|
-|12|**Double left** click on the selected card|The card must return to its initial place with the initial size|Works|
-|13|**Double left** click on a card with no card under|The card must go to the left and be bigger|Works|
+|1|Observe the cards **without touching** them|Nothing should happen|0.8.0|
+|2|**Left** click on the first card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|0.8.0|
+|3|**Left** click on the same card (**short press**)|The card must return to its initial place and be smaller|0.8.0|
+|4|**Right** click on a card (**short press**)|The card should do nothing|0.8.0|
+|5|**Left** click on the last card (**short press**)|The card should teleport itself to the middle left of the screen and be bigger|0.8.0|
+|6|**Left** click on another card (**short press**)|The first card must return to its initial place and be smaller. The second card must be at the middle right of the screen and be bigger|0.8.0|
+|7|**Hovering** the card with the cursor|Nothing should happen|0.8.0|
+|8|**Left** click on a card (**long press**)|The card should teleport itself to the middle left of the screen and be bigger|0.8.0|
+|9|**Left** click on another card (**long press**)|The first card must return to its initial place and be the same size as the other. The second card must be at the middle left of the screen and be bigger|0.8.0|
+|10|**Left** click on the card selected(on left)(**long press**)|The card must return to its original place and have its original size|0.8.0|
+|11|**Double left** click on a card with a card under|The first card must go to the middle left and be bigger, followed by the card under, and the first card should return to its initial place with its initial size|0.8.0|
+|12|**Double left** click on the selected card|The card must return to its initial place with the initial size|0.8.0|
+|13|**Double left** click on a card with no card under|The card must go to the left and be bigger|0.8.0|
 
 
 **Expected Results**: All actions should result in the expected movements without unwanted behaviour.
@@ -86,16 +86,16 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|**Left** click on a card (**short press**)|The card should teleport itself to the middle right of the screen and be bigger|Works|
-|2|**Hovering** the grid|Nothing will happen|Works|
-|3|**Left** click on a random case on the grid(**short press**)|A tower must appear in the case clicked|Works|
-|4|**Left** click on a card|The card should teleport itself to the middle right of the screen and be bigger|Works|
-|5|**Left** click on the previous case occupied by a tower| Nothing should happen|Works|
-|6|**Left** click on a random case of the grid|A tower must appear in the case clicked|Works|
-|7|Try to **drag** a tower|Nothing should happen|Works|
-|8|**Left** click on a tower|Nothing should happen|Works|
-|9|**Double left** click on a tower|Nothing should happen|Works|
-|10|**Right** click on a tower|Nothing should happen|Works|
+|1|**Left** click on a card (**short press**)|The card should teleport itself to the middle right of the screen and be bigger|0.8.0|
+|2|**Hovering** the grid|Nothing will happen|0.8.0|
+|3|**Left** click on a random case on the grid(**short press**)|A tower must appear in the case clicked|0.8.0|
+|4|**Left** click on a card|The card should teleport itself to the middle right of the screen and be bigger|0.8.0|
+|5|**Left** click on the previous case occupied by a tower| Nothing should happen|0.8.0|
+|6|**Left** click on a random case of the grid|A tower must appear in the case clicked|0.8.0|
+|7|Try to **drag** a tower|Nothing should happen|0.8.0|
+|8|**Left** click on a tower|Nothing should happen|0.8.0|
+|9|**Double left** click on a tower|Nothing should happen|0.8.0|
+|10|**Right** click on a tower|Nothing should happen|0.8.0|
 
 **Expected Results**: All actions should result in the expected movements without unwanted behaviour.
 
@@ -239,60 +239,60 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|Press the button **²** on a Windows keyboard|Nothing should happen|Works|
-|2|Press the button **1** on the Windows keyboard|Nothing should happen|Works|
-|3|Press the button **2** on the Windows keyboard|Nothing should happen|Works|
+|1|Press the button **²** on a Windows keyboard|Nothing should happen|0.8.0|
+|2|Press the button **1** on the Windows keyboard|Nothing should happen|0.8.0|
+|3|Press the button **2** on the Windows keyboard|Nothing should happen|0.8.0|
 |4|Press the button **3** on the Windows keyboard|Nothing should happen|To do|
 |5|Press the button **4** on the Windows keyboard|Nothing should happen|To do|
-|6|Press the button **5** on the Windows keyboard|Nothing should happen|Works|
-|7|Press the button **6** on the Windows keyboard|Nothing should happen|Works|
-|8|Press the button **7** on the Windows keyboard|Nothing should happen|Works|
-|9|Press the button **8** on the Windows keyboard|Nothing should happen|Works|
-|10|Press the button **9** on the Windows keyboard|Nothing should happen|Works|
-|11|Press the button **0** on the Windows keyboard|Nothing should happen|Works|
-|12|Press the button **°** on the Windows keyboard|Nothing should happen|Works|
-|13|Press the button **+** on the Windows keyboard|Nothing should happen|Works|
-|14|Press the button **A** on the Windows keyboard|Nothing should happen|Works|
-|15|Press the button **Z** on the Windows keyboard|Nothing should happen|Works|
-|16|Press the button **E** on the Windows keyboard|Nothing should happen|Works|
-|17|Press the button **R** on the Windows keyboard|Nothing should happen|Works|
-|18|Press the button **T** on the Windows keyboard|Nothing should happen|Works|
-|19|Press the button **Y** on the Windows keyboard|Nothing should happen|Works|
-|20|Press the button **U** on the Windows keyboard|Nothing should happen|Works|
-|21|Press the button **I** on the Windows keyboard|Nothing should happen|Works|
-|22|Press the button **O** on the Windows keyboard|Nothing should happen|Works|
-|23|Press the button **P** on the Windows keyboard|Nothing should happen|Works|
-|24|Press the button **¨** on the Windows keyboard|Nothing should happen|Works|
-|25|Press the button **£** on the Windows keyboard|Nothing should happen|Works|
-|26|Press the button **Q** on the Windows keyboard|Nothing should happen|Works|
-|27|Press the button **S** on the Windows keyboard|Nothing should happen|Works|
-|28|Press the button **D** on the Windows keyboard|Nothing should happen|Works|
-|29|Press the button **F** on the Windows keyboard|Nothing should happen|Works|
-|30|Press the button **G** on the Windows keyboard|Nothing should happen|Works|
-|31|Press the button **H** on the Windows keyboard|Nothing should happen|Works|
-|32|Press the button **J** on the Windows keyboard|Nothing should happen|Works|
-|33|Press the button **K** on the Windows keyboard|Nothing should happen|Works|
-|34|Press the button **L** on the Windows keyboard|Nothing should happen|Works|
-|35|Press the button **M** on the Windows keyboard|Nothing should happen|Works|
-|36|Press the button **%** on the Windows keyboard|Nothing should happen|Works|
-|37|Press the button **µ** on the Windows keyboard|Nothing should happen|Works|
-|38|Press the button **<** on the Windows keyboard|Nothing should happen|Works|
-|39|Press the button **W** on the Windows keyboard|Nothing should happen|Works|
-|40|Press the button **X** on the Windows keyboard|Nothing should happen|Works|
-|41|Press the button **C** on the Windows keyboard|Nothing should happen|Works|
-|42|Press the button **V** on the Windows keyboard|Nothing should happen|Works|
-|43|Press the button **B** on the Windows keyboard|Nothing should happen|Works|
-|44|Press the button **N** on the Windows keyboard|Nothing should happen|Works|
-|45|Press the button **?** on the Windows keyboard|Nothing should happen|Works|
+|6|Press the button **5** on the Windows keyboard|Nothing should happen|0.8.0|
+|7|Press the button **6** on the Windows keyboard|Nothing should happen|0.8.0|
+|8|Press the button **7** on the Windows keyboard|Nothing should happen|0.8.0|
+|9|Press the button **8** on the Windows keyboard|Nothing should happen|0.8.0|
+|10|Press the button **9** on the Windows keyboard|Nothing should happen|0.8.0|
+|11|Press the button **0** on the Windows keyboard|Nothing should happen|0.8.0|
+|12|Press the button **°** on the Windows keyboard|Nothing should happen|0.8.0|
+|13|Press the button **+** on the Windows keyboard|Nothing should happen|0.8.0|
+|14|Press the button **A** on the Windows keyboard|Nothing should happen|0.8.0|
+|15|Press the button **Z** on the Windows keyboard|Nothing should happen|0.8.0|
+|16|Press the button **E** on the Windows keyboard|Nothing should happen|0.8.0|
+|17|Press the button **R** on the Windows keyboard|Nothing should happen|0.8.0|
+|18|Press the button **T** on the Windows keyboard|Nothing should happen|0.8.0|
+|19|Press the button **Y** on the Windows keyboard|Nothing should happen|0.8.0|
+|20|Press the button **U** on the Windows keyboard|Nothing should happen|0.8.0|
+|21|Press the button **I** on the Windows keyboard|Nothing should happen|0.8.0|
+|22|Press the button **O** on the Windows keyboard|Nothing should happen|0.8.0|
+|23|Press the button **P** on the Windows keyboard|Nothing should happen|0.8.0|
+|24|Press the button **¨** on the Windows keyboard|Nothing should happen|0.8.0|
+|25|Press the button **£** on the Windows keyboard|Nothing should happen|0.8.0|
+|26|Press the button **Q** on the Windows keyboard|Nothing should happen|0.8.0|
+|27|Press the button **S** on the Windows keyboard|Nothing should happen|0.8.0|
+|28|Press the button **D** on the Windows keyboard|Nothing should happen|0.8.0|
+|29|Press the button **F** on the Windows keyboard|Nothing should happen|0.8.0|
+|30|Press the button **G** on the Windows keyboard|Nothing should happen|0.8.0|
+|31|Press the button **H** on the Windows keyboard|Nothing should happen|0.8.0|
+|32|Press the button **J** on the Windows keyboard|Nothing should happen|0.8.0|
+|33|Press the button **K** on the Windows keyboard|Nothing should happen|0.8.0|
+|34|Press the button **L** on the Windows keyboard|Nothing should happen|0.8.0|
+|35|Press the button **M** on the Windows keyboard|Nothing should happen|0.8.0|
+|36|Press the button **%** on the Windows keyboard|Nothing should happen|0.8.0|
+|37|Press the button **µ** on the Windows keyboard|Nothing should happen|0.8.0|
+|38|Press the button **<** on the Windows keyboard|Nothing should happen|0.8.0|
+|39|Press the button **W** on the Windows keyboard|Nothing should happen|0.8.0|
+|40|Press the button **X** on the Windows keyboard|Nothing should happen|0.8.0|
+|41|Press the button **C** on the Windows keyboard|Nothing should happen|0.8.0|
+|42|Press the button **V** on the Windows keyboard|Nothing should happen|0.8.0|
+|43|Press the button **B** on the Windows keyboard|Nothing should happen|0.8.0|
+|44|Press the button **N** on the Windows keyboard|Nothing should happen|0.8.0|
+|45|Press the button **?** on the Windows keyboard|Nothing should happen|0.8.0|
 |46|Press the button **.** on the Windows keyboard|Nothing should happen|To do|
-|47|Press the button **/** on the Windows keyboard|Nothing should happen|Works|
-|48|Press the button **$** on the Windows keyboard|Nothing should happen|Works|
-|49|Press the button **→** on the Windows keyboard|Nothing should happen|Works|
-|50|Press the button **←** on the Windows keyboard|Nothing should happen|Works|
-|51|Press the button **↑** on the Windows keyboard|Nothing should happen|Works|
-|52|Press the button **↓** on the Windows keyboard|Nothing should happen|Works|
-|53|Press the button **⏎** on the Windows keyboard|Nothing should happen|Works|
-|53|Press the **space bar** on the Windows keyboard|Nothing should happen|Works|
+|47|Press the button **/** on the Windows keyboard|Nothing should happen|0.8.0|
+|48|Press the button **$** on the Windows keyboard|Nothing should happen|0.8.0|
+|49|Press the button **→** on the Windows keyboard|Nothing should happen|0.8.0|
+|50|Press the button **←** on the Windows keyboard|Nothing should happen|0.8.0|
+|51|Press the button **↑** on the Windows keyboard|Nothing should happen|0.8.0|
+|52|Press the button **↓** on the Windows keyboard|Nothing should happen|0.8.0|
+|53|Press the button **⏎** on the Windows keyboard|Nothing should happen|0.8.0|
+|53|Press the **space bar** on the Windows keyboard|Nothing should happen|0.8.0|
 
 
 
@@ -340,11 +340,11 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|**Check** the number of cards|You should have 7 cards|Works|
-|2|Click on the **new wave** button|A wave should start and end when there are no more enemies|Works|
-|3|**Observe** the cards|Your previous cards should have been replaced by 7 new ones|Works|
-|4|**Place** a tower card on the grid|A tower should appear|Works|
-|5|**Observe** the cards|Your previous cards should have been replaced by 7 new ones|Works|
+|1|**Check** the number of cards|You should have 7 cards|0.8.0|
+|2|Click on the **new wave** button|A wave should start and end when there are no more enemies|0.8.0|
+|3|**Observe** the cards|Your previous cards should have been replaced by 7 new ones|0.8.0|
+|4|**Place** a tower card on the grid|A tower should appear|0.8.0|
+|5|**Observe** the cards|Your previous cards should have been replaced by 7 new ones|0.8.0|
 
 
 **Expected Results**: All actions should result in the expected movements without unwanted behaviour.
@@ -390,11 +390,11 @@
 
 |Step|Instructions|Expected behaviour|Status|
 |----|------------|------------------|------|
-|1|**Spend** the three mana on a card and place it on the grid|Your mana should be at zero mana and have a tower placed|Works|
-|2|Try to **place** another tower|Nothing should happen|Works|
-|2|**Pass** the wave and **observe** how mana you have at the new set-up phase|You should have four mana|Works|
-|3|**Quit** the game and **restart** it|You should restart at the beginning of the game|Works|
-|4|**Don't** spend mana and **pass** the wave|You should have four mana during the second set-up phase|Works|
+|1|**Spend** the three mana on a card and place it on the grid|Your mana should be at zero mana and have a tower placed|0.8.0|
+|2|Try to **place** another tower|Nothing should happen|0.8.0|
+|2|**Pass** the wave and **observe** how mana you have at the new set-up phase|You should have four mana|0.8.0|
+|3|**Quit** the game and **restart** it|You should restart at the beginning of the game|0.8.0|
+|4|**Don't** spend mana and **pass** the wave|You should have four mana during the second set-up phase|0.8.0|
 
 
 **Expected Results**: All actions should result in the expected movements without unwanted behaviour.

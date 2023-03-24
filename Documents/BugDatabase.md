@@ -1,3 +1,5 @@
+This BugDatabase is close, you can find the issues [here](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/issues).
+
 For more information on how it works: [Test plan](TestPlan.md)
 
 |Index|Reporter|Date|Description|Component|Steps|Assignee|Severity|Additional content|Status|Solution|

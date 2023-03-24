@@ -46,11 +46,8 @@ This test plan was designed to test the game "The Card Kingdom". It covers the U
 
 |Test zone|Activities|To ensure|
 |---------|----------|---------|
-|UI / UX|||
-||Accessibility|People with disabilities can play|
-||Comprehension|Easy to understand what can be done|
-||User-friendly|Avoid complex features|
-||Design|Coherent design|
+|UI|||
+||Accessibility|People with hearing disabilities and dyslexia can play|
 ||Controls|Easy to manupulate|
 ||Menu|Less than 3 click to go from a menu to an other|
 |||Access the game, leave the game, settings|
@@ -150,16 +147,7 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 
 # Defect Management
 
-To report bugs or defects effectively found in the project, a markdown file named "[Bug Database](BugDatabase.md)" has been created. 
-
-For each report, this information will be needed:
-- Index
-
-- Reporter
-    - The person reporting the issue
-
-- Date
-    - The date of the report
+The bugs or defects found in the project will be reported in the [GitHub issues tab](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/issues)).
 
 - Description
     - Description of the bug, as detailed as possible
@@ -173,14 +161,6 @@ For each report, this information will be needed:
     - Steps detailed as much as possible
 
 - Assignee
-
-- Status
-    - If the problem is 
-    	- To do
-        - Open
-        - In progress
-        - Closed
-        - Cancel
 
 - Severity
     - None -> Doesn't impact the project at all
