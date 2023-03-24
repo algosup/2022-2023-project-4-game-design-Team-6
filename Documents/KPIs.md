@@ -48,10 +48,31 @@
 | Project Understood  | 100%  |
 | Project Architecture  | 100%  |
 | Design of the Playground  | 50%  |
-| Design of the Cards  | 20%  |
+| Design of the Cards  | 55%  |
 | Design of the Monsters  | 33%  |
 | Variables Set  | 100%  |
-| Blueprint Done  | 15%  |
+| Blueprint Done  | 50%  |
+| Test Cases  | 2/14 |
+| Test Passing  | 0%  |
+| Bug Database  | 100%  |
+| Level Completed  | 0%  |
+| Balance Done   | 0%  |
+
+## Week 4
+
+| KPI  |KPI Competion Percentages  |
+|---|---|
+| Functional Specification  | 100%  |
+| Technical Specification  | 100%  |
+| Test Plan  | 100%  |
+| Project Understood  | 100%  |
+| Project Architecture  | 100%  |
+| Design of the Playground  | 90%  |
+| Design of the Cards  | 70%  |
+| Design of the Monsters  | 50%  |
+| Variables Set  | 100%  |
+| Blueprint Done  | 75%  |
+| Test Cases  | 14/14 |
 | Test Passing  | 0%  |
 | Bug Database  | 100%  |
 | Level Completed  | 0%  |

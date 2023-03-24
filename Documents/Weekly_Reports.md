@@ -11,4 +11,8 @@ For the second week we had 2 half days of project time. We did a paper prototype
 
 ## Week 3
 
-For the third week we had 5 half days of project time. The Teach Lead finished his Technical, and started working on the sound design. The QA finished her Test Plan, created some Test Cases, and created a Bug Database. The Program Manager tinker on his Functional and otherwise created some Sprites for the towers, ennemies, and the castle. The Software Engineer, improved the card system, the playground, and started on the tower system.
+For the third week we had 5 half days of project time. The Teach Lead finished his Technical, and started working on the Sound Design. The QA finished her Test Plan, created some Test Cases, and created a Bug Database. The Program Manager tinker on his Functional and otherwise created some Sprites for the towers, ennemies, and the castle. The Software Engineer, improved the card system, the playground, and started on the tower system.
+
+## Week 4
+
+For the forth week we had 3 half days of project time. During this week we delivred our demo to the professor and we finished the Sound Design and the Test Cases. The Software Engineer stated working on the battle system ( towers attacks and monsters hp ). The Tech Lead started the Researchs Documents, the Program Manager is working on some more design for the towers, the QA reworked her Bug Database according to the Client specification.
