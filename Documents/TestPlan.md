@@ -150,7 +150,7 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 
 # Defect Management
 
-To report bugs or defects effectively found in the project, a markdown file named "[Bug Database](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/BugDatabase.md)" has been created. 
+To report bugs or defects effectively found in the project, a markdown file named "[Bug Database](BugDatabase.md)" has been created. 
 
 For each report, this information will be needed:
 - Index
@@ -195,7 +195,7 @@ For each report, this information will be needed:
 
 # Test Cases
 
-All the test cases are in the markdown file [TestCases.md.](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/TestCases.md)
+All the test cases are in the markdown file [TestCases.md.](TestCases.md)
 
 # Footnotes
 
