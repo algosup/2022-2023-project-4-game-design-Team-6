@@ -84,7 +84,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Left** click on a card (**short press**)|The card should teleport itself to the middle right of the screen and be bigger|0.8.0|
 |2|**Hovering** the grid|Nothing will happen|0.8.0|
@@ -111,7 +111,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Right** click on the play button|Nothing should happen|To do|
 |2|**Left** click on the play button|Sounds to let us know it starts, five new cards appear on your deck|To do|
@@ -135,7 +135,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Place** tower like that <img src="Images/004test.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
 |2|**Reload** the game then **place** tower like that <img src="Images/004diag.png" style="height:100px"> And click on the play button|You musn't be able to do it|To do|
@@ -166,7 +166,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Place** an **Archer Tower** in the middle of the grid.|An archer tower should be placed|To do|
 |2|**Click** on the **Start** button|Goblins should arrive|Todo|
@@ -194,7 +194,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|Let the enemies go to the castle|The goblin should inflict five damage and disappear. The wave should finish when there are no more enemies, and the game should go to the second set-up phase|To do|
 |2|**Press** the start button without placing a tower|A new wave should start|To do|
@@ -214,7 +214,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Click** on the pause button in the top left of the screen|The pause menu should appear, and the game should be on pause|To do|
 |2|**Click** on the resume button|The pause menu should disappear, and the game should restart from where you paused|To do|
@@ -237,7 +237,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|Press the button **²** on a Windows keyboard|Nothing should happen|0.8.0|
 |2|Press the button **1** on the Windows keyboard|Nothing should happen|0.8.0|
@@ -311,7 +311,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Click** on a tower card|The card should go to the left|To do|
 |2|**Click** on the grid to lace the tower|A tower should be placed in the square you clicked on|To do|
@@ -338,7 +338,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Check** the number of cards|You should have 7 cards|0.8.0|
 |2|Click on the **new wave** button|A wave should start and end when there are no more enemies|0.8.0|
@@ -361,7 +361,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|Let the enemies go to the castle|Enemies should go to the castle and inflict damage. You should arrive to the second set-up phase|To do|
 |2|Check the **number of health point** of the castle|It should be (100 - number of enemies*5)|To do|
@@ -388,7 +388,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|**Spend** the three mana on a card and place it on the grid|Your mana should be at zero mana and have a tower placed|0.8.0|
 |2|Try to **place** another tower|Nothing should happen|0.8.0|
@@ -411,7 +411,7 @@
 
 **Test Steps**:
 
-|Step|Instructions|Expected behaviour|Status|
+|Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
 |1|Click on the **Quit** button|The game should close|To do|
 |2|**Reopen** the game|You should arrive on the main menu|To do|

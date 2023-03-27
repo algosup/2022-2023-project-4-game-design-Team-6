@@ -59,6 +59,7 @@ This test plan was designed to test the game "The Card Kingdom". It covers the U
 ||Towers|Attacks, Health points, position|
 ||Enemies|Pathfinding[^path], attacks, health points|
 ||Pathfinding[^path]|Can't block the enemies path|
+|Code|||
 
 
 # Risk Analysis
@@ -76,8 +77,8 @@ Taking all the previous information, and also that is the first version of the g
 |1|Towers|Ensure their damage area and the damage they inflict|
 |2|Cards|The cards need to be explicit and give the right tower or spell|
 |3|Controls|The player has to find it easy to use and not struggle to choose a card and place it|
-|4|Enemies|Ensure their pathfinding[^path], their health points and movments|
-|5|Comprehension|If the player doesn't understand what he can do, he will be annoyed and never play the game|
+|4|Enemies|Ensure their pathfinding[^path], their health points and movements|
+|5|Code||
 
 # Scheduling and Test Approach
 
@@ -120,6 +121,7 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 - Lenovo
   - Windows 11
   - 1920 x 1080
+  - 
 
 ## Software
 
