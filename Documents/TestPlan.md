@@ -46,11 +46,8 @@ This test plan was designed to test the game "The Card Kingdom". It covers the U
 
 |Test zone|Activities|To ensure|
 |---------|----------|---------|
-|UI / UX|||
-||Accessibility|People with disabilities can play|
-||Comprehension|Easy to understand what can be done|
-||User-friendly|Avoid complex features|
-||Design|Coherent design|
+|UI|||
+||Accessibility|People with hearing disabilities and dyslexia can play|
 ||Controls|Easy to manupulate|
 ||Menu|Less than 3 click to go from a menu to an other|
 |||Access the game, leave the game, settings|
@@ -62,6 +59,7 @@ This test plan was designed to test the game "The Card Kingdom". It covers the U
 ||Towers|Attacks, Health points, position|
 ||Enemies|Pathfinding[^path], attacks, health points|
 ||Pathfinding[^path]|Can't block the enemies path|
+|Code|||
 
 
 # Risk Analysis
@@ -79,8 +77,8 @@ Taking all the previous information, and also that is the first version of the g
 |1|Towers|Ensure their damage area and the damage they inflict|
 |2|Cards|The cards need to be explicit and give the right tower or spell|
 |3|Controls|The player has to find it easy to use and not struggle to choose a card and place it|
-|4|Enemies|Ensure their pathfinding[^path], their health points and movments|
-|5|Comprehension|If the player doesn't understand what he can do, he will be annoyed and never play the game|
+|4|Enemies|Ensure their pathfinding[^path], their health points and movements|
+|5|Code||
 
 # Scheduling and Test Approach
 
@@ -123,6 +121,7 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 - Lenovo
   - Windows 11
   - 1920 x 1080
+  - 
 
 ## Software
 
@@ -150,16 +149,7 @@ By identifying the part of the code for each defect, a Pareto[^pareto] can help 
 
 # Defect Management
 
-To report bugs or defects effectively found in the project, a markdown file named "[Bug Database](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/BugDatabase.md)" has been created. 
-
-For each report, this information will be needed:
-- Index
-
-- Reporter
-    - The person reporting the issue
-
-- Date
-    - The date of the report
+The bugs or defects found in the project will be reported in the [GitHub issues tab](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/issues)).
 
 - Description
     - Description of the bug, as detailed as possible
@@ -174,14 +164,6 @@ For each report, this information will be needed:
 
 - Assignee
 
-- Status
-    - If the problem is 
-    	- To do
-        - Open
-        - In progress
-        - Closed
-        - Cancel
-
 - Severity
     - None -> Doesn't impact the project at all
     - Low -> Small impact, 
@@ -195,7 +177,7 @@ For each report, this information will be needed:
 
 # Test Cases
 
-All the test cases are in the markdown file [TestCases.md.](https://github.com/algosup/2022-2023-project-4-game-design-Team-6/blob/Test/TestCases.md)
+All the test cases are in the markdown file [TestCases.md.](TestCases.md)
 
 # Footnotes
 
