@@ -1,0 +1,7 @@
+E:\Projets\2022-2023-project-4-game-design-Team-6\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\Definitions.TheCardKingdom.h
+E:\Projets\2022-2023-project-4-game-design-Team-6\TheCardKingdom\Source\TheCardKingdom\TheCardKingdomGameModeBase.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\Projets\2022-2023-project-4-game-design-Team-6\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Inc\TheCardKingdom\TheCardKingdomGameModeBase.generated.h

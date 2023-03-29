@@ -1,0 +1,2 @@
+E:\Projets\2022-2023-project-4-game-design-Team-6\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\Definitions.TheCardKingdom.h
+E:\Projets\2022-2023-project-4-game-design-Team-6\TheCardKingdom\Source\TheCardKingdom\TheCardKingdom.h
