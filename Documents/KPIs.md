@@ -72,8 +72,28 @@
 | Design of the Monsters  | 50%  |
 | Variables Set  | 100%  |
 | Blueprint Done  | 75%  |
-| Test Cases  | 14/14 |
+| Test Cases  | 13/13 |
 | Test Passing  | 0%  |
+| Bug Database  | 100%  |
+| Level Completed  | 0%  |
+| Balance Done   | 0%  |
+
+## Week 5
+
+| KPI  |KPI Competion Percentages  |
+|---|---|
+| Functional Specification  | 100%  |
+| Technical Specification  | 100%  |
+| Test Plan  | 100%  |
+| Project Understood  | 100%  |
+| Project Architecture  | 100%  |
+| Design of the Playground  | 100%  |
+| Design of the Cards  | 100%  |
+| Design of the Monsters  | 75%  |
+| Variables Set  | 100%  |
+| Blueprint Done  | 90%  |
+| Test Cases  | 13/13 |
+| Test Passing  | 30%  |
 | Bug Database  | 100%  |
 | Level Completed  | 0%  |
 | Balance Done   | 0%  |
