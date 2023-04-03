@@ -28,8 +28,9 @@
         - [Castle](#castle)
     - [Mockup](#mockup)
   - [Course of a game](#course-of-a-game)
-        - [When the players starts the game:](#when-the-players-starts-the-game)
-        - [When the players starts a new game](#when-the-players-starts-a-new-game)
+        - [When the players start a new game](#when-the-players-start-a-new-game)
+        - [When the players continue a game](#when-the-players-continue-a-game)
+        - [When the players are playing a game](#when-the-players-are-playing-a-game)
   - [Visuals of a game's course](#visuals-of-a-games-course)
     - [Main menu](#main-menu)
     - [Setup phase - without actions](#setup-phase---without-actions)
@@ -67,29 +68,24 @@ Our team is searching for innovative ideas, to attain them we wanted to aim to a
 
 To explain a bit further, the user have a hand of cards, generated randomly after each waves in a level depending of user's deck. To use their cards, the user will have to use their mana, a ressource refilled as the same time as the hand.
 
-The user will be able to place their towers on the map which is cut into a grid, they can also upgrade their towers and even give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and harder.
-
-Furthermore, the levels will be chosen by the user by using a procedural[^procedural] generation for the list of levels.
+The user will be able to place their towers on the map which is cut into a grid, they can also give a bonus to them. By placing towers the user will be able to create a maze to make ennemies' advance longer and harder.
 
 ## Gameplay
 
 The gameplay was made to be simple to grasp within short time, the battle phase is cut in two different part, the setup and the play phase.
 
+Players have two ressources, cards which can be played by the players and mana which is consumed when cards are played, each card has its own mana cost.
+
 ##### Setup phase
 
-The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of the phase the players will see their mana refilled, gain one additional mana and will have 5 more cards in their hand. At this moment the players will have to think about how to use their mana to place towers on the grid, (e.g: the players have an archer tower and a crossbow tower, they cost 2 and 3 respectively but the players only have 4 mana, they need to choose which tower they will place or use none of them). Something to note is that during this phase, the view automatically transform to an aerial view.
+The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of this phase, the game is saved, players draw 7 cards, and refill their mana and permanently gain one more. During the setup phase, the players can place their towers, to do so they have to either click on one of their cards and then on one cell of the grid or they can do the opposite, to click on one cell and then a card.
+Each towers has its own effect, its own attack and attack speed and a different cost.
 
-Something to note is that at the start of the first wave the players have only 3 mana and as said previously after each wave the players gain 1 additional mana until 10 mana maximum.
-
-When the players have finished their preparations they can push the button "new wave" and the battle phase starts, making the camera come back to an isometric view.
-
-At the end of the phase the remaining players' cards will go to the discard pile also, they can hold until 20 cards maximum, if the players have their hand full, new cards directly go to the discard pile, to avoid the players to be stuck, they can send directly card in their hand to the discard pile for free.
-
-Finally if the players's deck is empty, their discard pile is shuffled and put back in the pile.
+When the players have finished their preparations, they can click on the "next wave" button placed in the bottom right of the window. When this is done, the players' hand is discarded and the battle phase begins.
 
 ##### Play phase
 
-The play phase represent the phase where ennemies are coming, the towers attack nearby ennemies and the phase ends when all ennemies are killed, except for boss battles, if the boss is not killed after a certain amount of time, it calls reinforcement and every ennemies are twice as fast, it is to avoid a battle phase that last longer than expected. Finaly, during this phase, the players can use their remaining mana to use spell cards that they can temporarily enhance towers, slow or hurt ennemies.
+The play phase represent the phase where ennemies are coming, the towers attack nearby ennemies and the phase ends when all ennemies are killed, except for boss battles, if the boss is not killed after a certain amount of time, it calls reinforcement and every ennemies are twice as fast, it is to avoid a battle phase that last longer than expected. Finally, during this phase, the players can use their remaining mana to use spell cards that can temporarily enhance towers, slow or hurt ennemies.
 
 ## Design
 
@@ -97,7 +93,7 @@ The play phase represent the phase where ennemies are coming, the towers attack 
 
 #### Description
 
-Our game will use a style named "paper style", every thing is represented as papers and drawings, for example an enemy is a drawing standing on a stick, the castle is a card castle, and mana are small paper balls.
+Our game will use a style named "paper style", every thing is represented as papers and drawings, for example an enemy is a drawing standing on a stick and the castle is a card castle.
 
 #### examples
 
@@ -127,22 +123,30 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 
 ## Course of a game
 
-##### When the players starts the game:
+##### When the players start a new game
 
 - The players open the executable
 - The players arrive on the main menu
 - The players select "new game"
+- The next phase is now "[When the players are playing a game](#when-the-players-are-playing-a-game)"
   
-##### When the players starts a new game
+##### When the players continue a game
+
+- The players open the executable
+- The players arrive on the main menu
+- The players select "continue"
+- The next phase is now "[When the players are playing a game](#when-the-players-are-playing-a-game)"
+
+##### When the players are playing a game
 
 - The players arrive on the playable scene
-- The setup phase starts, the view is now aerial
+- The setup phase starts
 - The players use all their mana to place archer towers
 - The players push the "new wave" button"
 - The players sucessfully kill all of the ennemies
-- The setup phase come back, all their mana is refilled, the players now have 5 cards
+- The setup phase come back, all their mana is refilled, the players now have 7 cards
 - The players push the "new wave" button
-- An ennemies sucessfuly pass through the players defenses and arrive at the castle, the players loose
+- An ennemies sucessfuly pass through the players' defenses and arrive at the castle, the players loose
 - The players come back to the main menu
 
 ## Visuals of a game's course
@@ -186,5 +190,4 @@ Finally on the left of the card you may have noticed there is a grey square, it 
 [^lore]: The story, a character's lore is the story of the character, it can also define the main story for a movie, a book or a game.
 [^roguelite]: It is a lighter version of the roguelike[^roguelike] genre.
 [^roguelike]: As the name suggest, it is a genre of game based on the gameplay of the game "Rogue" a video game from 1980, in this game the user axplore a dungeon where monsters lurk in the dark, the user have to find object to help him finishing the game, most of the time this genre is associated with procedural maps.
-[^procedural]: A procedural generation is a randomly generated system, it is used to generate the terrain, the list of level or even encounters.
 [^responsive]: A responsive app is an app which is able to scale to every screen size of it's plateform, for example responsive website are website able to perform for every computers and/or phones without having issues with their apparence.
