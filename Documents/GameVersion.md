@@ -12,3 +12,4 @@
 |0.8.0|Creation of a straight path for the enemies and resolution of the issue #9|
 |0.9.0|Enemies and castle take damage|
 |0.10.0|Main menu + pause menu|
+|0.10.2|Resolution of the issue #25|

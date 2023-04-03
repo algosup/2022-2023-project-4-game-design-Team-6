@@ -414,11 +414,11 @@ More details on the game version in the [Game Version](GameVersion.md) document.
 
 |Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
-|1|**Spend** the three mana on a card and place it on the grid|Your mana should be at zero mana(out of three) and have a tower placed|0.8.0, 0.9.0|
-|2|Try to **place** another tower|Nothing should happen|0.8.0, 0.9.0|
-|2|**Pass** the wave and **observe** how mana you have at the new set-up phase|You should have four mana out of four|0.8.0, 0.9.0|
-|3|**Quit** the game and **restart** it|You should restart at the beginning of the game|0.8.0, 0.9.0|
-|4|**Don't** spend mana and **pass** the wave|You should have four mana during the second set-up phase|0.8.0, 0.9.0|
+|1|**Spend** the three mana on a card and place it on the grid|Your mana should be at zero mana(out of three) and have a tower placed|0.8.0, 0.9.0, 0.10.0|
+|2|Try to **place** another tower|Nothing should happen|0.8.0, 0.9.0, 0.10.0|
+|2|**Pass** the wave and **observe** how mana you have at the new set-up phase|You should have four mana out of four|0.8.0, 0.9.0, 0.10.0|
+|3|**Quit** the game and **restart** it|You should restart at the beginning of the game|0.8.0, 0.9.0, 0.10.0|
+|4|**Don't** spend mana and **pass** the wave|You should have four mana during the second set-up phase|0.8.0, 0.9.0, 0.10.0|
 
 
 **Expected Results**: All actions should result in the expected movements without unwanted behaviour.
@@ -437,14 +437,14 @@ More details on the game version in the [Game Version](GameVersion.md) document.
 
 |Step|Instructions|Expected behaviour|Version working|
 |----|------------|------------------|------|
-|1|Click on the **Quit** button|The game should close|To do|
+|1|Click on the **Quit** button|The game should close|0.10.0|
 |2|**Reopen** the game|You should arrive on the main menu|To do|
-|3|Click on the **New Game** button|The game should start, and you should arrive on the first set-up phase|To do|
-|4|Click on the **pause** button|The game should be in pause, and the pause menu should appear|To do|
-|5|Click on the **resume** button|You should arrive at the same set-up phase as before|To do|
-|6|Click on the **pause** button|The game should be in pause, and the pause menu should appear|To do|
+|3|Click on the **New Game** button|The game should start, and you should arrive on the first set-up phase|0.10.0|
+|4|Click on the **pause** button|The game should be in pause, and the pause menu should appear|0.10.0|
+|5|Click on the **resume** button|You should arrive at the same set-up phase as before|0.10.0|
+|6|Click on the **pause** button|The game should be in pause, and the pause menu should appear|0.10.0|
 |7|Click on the **settings** button|You should arrive in the settings|To do|
 |8|Clisk on the **return** button|You should be back to the pause menu|To do|
-|9|Click on the **main page** button|You should arrive on the main page|To do|
+|9|Click on the **Quit** button|You should arrive on the main page|0.10.0|
 
 **Expected Results**: All actions should result in the expected movements without unwanted behaviour.
