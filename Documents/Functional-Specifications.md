@@ -47,14 +47,14 @@
 # Overview
 
 The goal of this project is to create a video game with innovant ideas within 6 weeks.
-The idea is to teach students principles of game design, during this project we will learn every fundamentals of creating a video game, from the creation of concepts to create the balance between every element.
+The idea is to teach students principles of game design, during this project we will learn every fundamentals of creating a video game, from the creation of concepts to create the balance between every elements.
 
 To create a video game we will use multiple tools such as:
 
 - Unreal Engine 4
 - Modeling app such as blender
   
-As for the audience we are aiming, we are aiming for every type of users, from 8 years old to 80 years old. However if you want more specific informations here is a document that will present them: [Personas](./Personas.md)
+As for the audience we are aiming, we are aiming for every types of users, from 8 years old to 80 years old. However if you want more specific informations here is a document that will present them: [Personas](./Personas.md)
 
 # Game overview
 
@@ -78,7 +78,7 @@ Players have two ressources, cards which can be played by the players and mana w
 
 ##### Setup phase
 
-The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of this phase, the game is saved, players draw 7 cards, and refill their mana and permanently gain one more. During the setup phase, the players can place their towers, to do so they have to either click on one of their cards and then on one cell of the grid or they can do the opposite, to click on one cell and then a card.
+The setup phase is, as its name suggest a moment where the players are able to setup their towers. At the start of this phase, the game is saved, players draw 7 cards, and refill their mana and permanently gain one more up to 10 mana. During the setup phase, the players can place their towers, to do so they have to either click on one of their cards and then on one cell of the grid or they can do the opposite, to click on one cell and then a card.
 Each towers has its own effect, its own attack and attack speed and a different cost.
 
 When the players have finished their preparations, they can click on the "next wave" button placed in the bottom right of the window. When this is done, the players' hand is discarded and the battle phase begins.
