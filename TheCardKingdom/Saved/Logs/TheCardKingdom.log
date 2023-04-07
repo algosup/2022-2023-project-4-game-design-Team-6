@@ -1259,3 +1259,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.04.07-08.05.11:015][869]LogSavePackage: Moving 'E:/Projets/2022-2023-project-4-game-design-Team-6/TheCardKingdom/Saved/DeckGame4752F4D44EE728A9467448BB2527CDA0.tmp' to 'E:/Projets/2022-2023-project-4-game-design-Team-6/TheCardKingdom/Content/TheCardKingdom/Blueprints/DeckGame.uasset'
 [2023.04.07-08.05.11:025][869]AssetCheck: New page: Asset Save: DeckGame
 [2023.04.07-08.05.11:025][869]LogContentValidation: Display: Validating Blueprint /Game/TheCardKingdom/Blueprints/DeckGame.DeckGame
+[2023.04.07-08.07.52:784][923]BlueprintLog: New page: Compile DeckGame
+[2023.04.07-08.07.52:878][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2023.04.07-08.07.53:098][923]LogSavePackage: Moving 'E:/Projets/2022-2023-project-4-game-design-Team-6/TheCardKingdom/Saved/DeckGame7488C0094BAC75FDED8C74BF33E54671.tmp' to 'E:/Projets/2022-2023-project-4-game-design-Team-6/TheCardKingdom/Content/TheCardKingdom/Blueprints/DeckGame.uasset'
+[2023.04.07-08.07.53:110][923]AssetCheck: New page: Asset Save: DeckGame
+[2023.04.07-08.07.53:110][923]LogContentValidation: Display: Validating Blueprint /Game/TheCardKingdom/Blueprints/DeckGame.DeckGame
