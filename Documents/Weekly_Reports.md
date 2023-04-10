@@ -20,3 +20,7 @@ For the forth week we had 3 half days of project. During this week we delivred o
 ## Week 5
 
 For the fifth week we had 5 half days of project. During this week the Software Engineer finished the battle System and started refinning the Pathfiding. The QA and the Program Manager worked on the save system, the Tech Lead expended the Wiki, the final monsters were designed and need to be implemented.
+
+## Week 6
+
+For the sixth week we had 5 half days of project.
