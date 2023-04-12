@@ -1,9 +1,0 @@
-E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\Definitions.TheCardKingdom.h
-D:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-E:\Projets\gameproj2\TheCardKingdom\Source\TheCardKingdom/TheCardKingdomGameModeBase.h
-D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Inc\TheCardKingdom\TheCardKingdomGameModeBase.generated.h
