@@ -35,8 +35,9 @@
 - [5. Audio](#5-audio)
   - [5.1. Sound Effects](#51-sound-effects)
   - [5.2. Music](#52-music)
-- [6. Minimum System Requirements](#6-minimum-system-requirements)
-- [7. Glossary](#7-glossary)
+- [6. User Interface](#6-user-interface)
+- [7. Minimum System Requirements](#7-minimum-system-requirements)
+- [8. Glossary](#8-glossary)
 
 
 
@@ -71,7 +72,7 @@ Unreal Engine is a game engine developed by Epic Games, famous games have been c
 ## 3.1. Game Description
 
 
-The Card Kingdom is a Tower Defense game, the player will have to defend their base from waves of enemies. The player will have to place towers on the map to defend their base, and they will have the possibility of upgrading them to defeat enemies more easily. One of the main features of the game is the possibility to create your own deck of cards, and to use them in the game. The player will have to create a deck of 20 cards, and they will have 7 cards in his hand. In order to use each cards, the player will have to use mana, and each turn the player will have its mana refilled. The player will have to use their cards wisely in order to defeat the enemies.
+The Card Kingdom is a Tower Defense game, the player will have to defend their base from waves of enemies. The player will have to place towers on the map to defend their base, and they will have the possibility of upgrading them to defeat enemies more easily. One of the main features of the game is the possibility to create your own deck of cards, and to use them in the game. The player will have to create a deck of 20 cards, and they will have 7 cards in his hand. In order to use each cards, the player will have to use mana, and each turn the player will have its mana refilled and get an additional mana point to stock, capped at 10. The player will have to use their cards wisely in order to defeat the enemies.
 
 <br/>
 
@@ -114,7 +115,7 @@ The castle is the main element of the game, it is the player's base, and it is t
 
 ## 3.3. Game Flow
 
-The game will be divided into 3 main phases, the setup phase, the wave phase and the end phase. The setup phase will be the phase where the player will have to place their towers and temples on the map, and where they will have to choose their spells. The wave phase will be the phase where the enemies will spawn, and the player will have to defeat them. The end phase will be the phase where the player will be able to see the results of the wave.
+The game will be divided into 3 main phases, the setup phase, the wave phase and the end phase. The setup phase will be the phase where the player will have to place their towers on the map. The wave phase will be the phase where the enemies will spawn, and the player will have to defeat them. The end phase will be the phase where the player will be able to see the results of the wave.
 
 <br/>
 
@@ -123,12 +124,12 @@ The game will be divided into 3 main phases, the setup phase, the wave phase and
 For the graphics, we went for a minimalistic style, we wanted to have a simple and clean design, and we wanted to have a game that is easy to understand. 
 ## 4.1. Art Style
 
-Regarding the art style, we chose the cutout art style, which is a style that is used to create a 3D effect with 2D elements. We thought this style would fit our game because it relies on card, so we wanted to create a link between the cards and the paper world in order to reinforce the player immersion. 
+Regarding the art style, we chose the cutout art style, which is a style that is used to create a 3D effect with 2D elements. We thought this style would fit our game because it relies on cards, so we wanted to create a link between the cards and the paper world in order to reinforce the player immersion. 
 
 
 ## 4.2. Visuals
 
-As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will be drawn **manually** by our team, same for the towers. 
+As mentionned above, we opted for a more "paperish" visual, all of the cards will have a paper texture, and the background will be a paper texture as well. All the enemies texture will be drawn **manually** by our team, same for the towers-. 
 <br/>
 
 # 5. Audio
@@ -137,20 +138,24 @@ All the audio parts have been created by our team, we used **Audacity** to creat
 
 ## 5.1. Sound Effects
 
-The sound effects will be used to give feedback to the player, for instance, when a tower is placed, or when an enemy is defeated. We will also use sound effects to give the player a sense of progression, for instance, when the player defeated an enemy wave. 
-<br/>
+  The sound effects will be used to give feedback to the player, for instance, when a tower is placed, or when an enemy is defeated. We will also use sound effects to give the player a sense of progression, for instance, when the player defeated an enemy wave. In order to create the sound effects we tried to use as much as possible paper, so we used paper crumpling and paper tearing, and then modified them with Audacity. 
+  <br/>
 
 ## 5.2. Music
 
-The songs will be used to create a more immersive experience, and to give the player a sense of progression. The songs will be used during the setup phase, the wave phase and if the players castle goes below 50 HP, in order to reinforce the danger feeling.
+The songs will be used to create a more immersive experience, and to give the player a sense of progression. The songs will be used during the setup phase, the wave phase and if the players castle goes below 50 HP, in order to reinforce the danger feeling. We used Shutterstock to find royalty-free songs, and then modified them with Audacity. 
+  <br/>
 
 <br/>
 
-# 6. Minimum System Requirements
+# 6. User Interface 
 
-The minimun system requirements are not defined yet. We will update this section once we have more information about the game. But we plan to make it accessible to as many people as possible, so we will try to make it as light as possible.
+The user interface will be divided into 3 main parts, the top bar, the cards bar and the map. The top bar will be used to display the player's mana, the wave number, the player's castle health points and the player's score. The cards bar will be used to display the player's cards, and the map will be used to display the player's towers and enemies.
+# 7. Minimum System Requirements
 
-# 7. Glossary
+We don't have any specific system requirements, but our game is light and should run on any recent enough computer.
+
+# 8. Glossary
 
 | **Term** | **Definition** |
 | :--- | :--- |
