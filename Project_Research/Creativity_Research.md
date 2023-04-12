@@ -1,0 +1,12 @@
+# Creativity Research
+
+This document is a summary of the creativity researches that has been done during the project in order to create our game.
+
+## Game Genre Research
+
+In order to find the game genre of our game, went on [Video game genres (Full List)](https://www.gamepro.com.au/tutorials/video-game-genres/) to have the entire list of video game genres, once we've picked some that might be interesting for us, we went on this website [Video game genres (most popular)](https://www.gamedesigning.org/gaming/video-game-genres/), in order to know which one were the most popular. We've decided to go with the [Tower Defense](https://en.wikipedia.org/wiki/Tower_defense) genre, and used to this website to get a clear idea of what it was about, but also this video: [Tower Defense Gameplay](https://www.youtube.com/watch?v=8zG-Zs2J_N0). We've also watched this video to get an idea of what the gameplay of the game would be like: [Slay the Spire Gameplay](https://www.youtube.com/watch?v=T9pl1SxKuQE&ab_channel=Olav3DTutorials). And to have an idea on how to balance the game we went on this website [Bloons TD 6 Stats](https://statsnite.com/btd).
+
+## Visual / Design Research
+
+
+For the environment, we didn't really had to do a lot of research, as the idea of making a paperish style, came to our mind really naturally, in order to suit well with the card usage. Although we did look for some inspiration for the enemies, and to start our research we went on this website [Skeleton Low-Poly Design](https://overactiongames.itch.io/free-animated-cartoon-low-poly-skeleton-enemy) in order to get a clear idea on what our enemies should look like. After we got our first enemy design we made our other designs based on it. We used an image generator in order to get some design for our menu background, we used the AI named [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F), it is a Discord bot that can generate images based on a given description, that could be compared to DALL-E. In order to find some names for our game, we used a name generator website named [RollForFantasy](https://rollforfantasy.com/).
