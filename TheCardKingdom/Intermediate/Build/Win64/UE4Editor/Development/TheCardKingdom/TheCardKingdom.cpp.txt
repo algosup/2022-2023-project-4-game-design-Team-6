@@ -1,0 +1,2 @@
+E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\Definitions.TheCardKingdom.h
+E:\Projets\gameproj2\TheCardKingdom\Source\TheCardKingdom\TheCardKingdom.h

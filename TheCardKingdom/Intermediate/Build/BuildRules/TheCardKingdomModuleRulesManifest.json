@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Projets\\gameproj2\\TheCardKingdom\\Source\\TheCardKingdom\\TheCardKingdom.Build.cs",
+		"E:\\Projets\\gameproj2\\TheCardKingdom\\Source\\TheCardKingdom.Target.cs",
+		"E:\\Projets\\gameproj2\\TheCardKingdom\\Source\\TheCardKingdomEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

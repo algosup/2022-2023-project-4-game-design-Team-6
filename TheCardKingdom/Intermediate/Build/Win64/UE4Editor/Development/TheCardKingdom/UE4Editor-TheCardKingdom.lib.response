@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TheCardKingdom.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\TheCardKingdomEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\TheCardKingdom.cpp.obj"
+"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\TheCardKingdomGameModeBase.cpp.obj"
+"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\TheCardKingdom.init.gen.cpp.obj"
+"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\TheCardKingdomGameModeBase.gen.cpp.obj"
+"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\Default.rc2.res"
+/OUT:"E:\Projets\gameproj2\TheCardKingdom\Intermediate\Build\Win64\UE4Editor\Development\TheCardKingdom\UE4Editor-TheCardKingdom.lib"
