@@ -24,7 +24,7 @@
   - [3.1. Game Description](#31-game-description)
   - [3.2. Game Mechanics](#32-game-mechanics)
     - [3.2.1. Towers](#321-towers)
-    - [3.2.2. Mana](#322-mana)
+    - [3.2.2. Ink](#322-ink)
     - [3.2.3. Enemies](#323-enemies)
     - [3.2.4. Waves](#324-waves)
     - [3.2.5. Castle](#325-castle)
@@ -72,7 +72,7 @@ Unreal Engine is a game engine developed by Epic Games, famous games have been c
 ## 3.1. Game Description
 
 
-The Card Kingdom is a Tower Defense game, the player will have to defend their base from waves of enemies. The player will have to place towers on the map to defend their base, and they will have the possibility of upgrading them to defeat enemies more easily. One of the main features of the game is the possibility to create your own deck of cards, and to use them in the game. The player will have to create a deck of 20 cards, and they will have 7 cards in his hand. In order to use each cards, the player will have to use mana, and each turn the player will have its mana refilled and get an additional mana point to stock, capped at 10. The player will have to use their cards wisely in order to defeat the enemies.
+The Card Kingdom is a Tower Defense game, the player will have to defend their base from waves of enemies. The player will have to place towers on the map to defend their base, and they will have the possibility of upgrading them to defeat enemies more easily. One of the main features of the game is the possibility to create your own deck of cards, and to use them in the game. The player will have to create a deck of 20 cards, and they will have 7 cards in his hand. In order to use each cards, the player will have to use ink, and each turn the player will have its ink refilled and get an additional ink point to stock, capped at 10. The player will have to use their cards wisely in order to defeat the enemies.
 
 <br/>
 
@@ -81,13 +81,13 @@ The Card Kingdom is a Tower Defense game, the player will have to defend their b
 
 ### 3.2.1. Towers
 
-Towers are the first type of cards. The player will have to place them on the map, and they will automatically attack enemies. There are 5 different towers, each one with their own characteristics. The player will have to be careful when placing them, because they have a range, and if they are too far from the enemies, they won't be able to attack them, but also because the player won't be able to destroy them after they have been placed. The towers will have different mana cost, based on their DPS, and on their cost efficiency, which is the ratio between the cost of the tower and its DPS. The towers range are based on a circle, and the towers will attack the closest enemy in their circle. The player will only be able to place towers during the setup phase, before the next wave of enemies. Once a tower is placed it will stay on the map until the end of the game, and the card will disappear from the player's hand.
+Towers are the first type of cards. The player will have to place them on the map, and they will automatically attack enemies. There are 5 different towers, each one with their own characteristics. The player will have to be careful when placing them, because they have a range, and if they are too far from the enemies, they won't be able to attack them, but also because the player won't be able to destroy them after they have been placed. The towers will have different ink cost, based on their DPS, and on their cost efficiency, which is the ratio between the cost of the tower and its DPS. The towers range are based on a circle, and the towers will attack the closest enemy in their circle. The player will only be able to place towers during the setup phase, before the next wave of enemies. Once a tower is placed it will stay on the map until the end of the game, and the card will disappear from the player's hand.
 
 <br/>
 
-### 3.2.2. Mana
+### 3.2.2. Ink
 
-Mana is the resource used to play cards, the player will get 6 mana at the beginning of each turn. Every unspent mana will be added to the player's mana pool at the end of the turn, the maximum mana amount that the player can have is 10. 
+Ink is the resource used to play cards, the player will get its ink refilled at the beginning of each turn. Every unspent ink will be added to the player's ink pool at the end of the turn, the maximum ink amount that the player can have is 10. The player starts with 3 ink, which means that the player player will reach the maximum ink amount at the end of the 7th turn.
 
 <br/>
 
@@ -115,7 +115,7 @@ The castle is the main element of the game, it is the player's base, and it is t
 
 ## 3.3. Game Flow
 
-The game will be divided into 3 main phases, the setup phase, the wave phase and the end phase. The setup phase will be the phase where the player will have to place their towers on the map. The wave phase will be the phase where the enemies will spawn, and the player will have to defeat them. The end phase will be the phase where the player will be able to see the results of the wave.
+The game will be divided into 3 main phases, the setup phase, the wave phase and the end phase. The setup phase will be the phase where the player will have to place their towers on the map. The wave phase will be the phase where the enemies will spawn, and the player will have to defeat them. The end phase will be the phase where the player will be able to see the results of the wave. When the player will defeat the 10th wave. The game will keep going restart the game, but the player will have to defeat 11 waves. The game ends when the castle is destroyed by the enemies.
 
 <br/>
 
@@ -150,7 +150,7 @@ The songs will be used to create a more immersive experience, and to give the pl
 
 # 6. User Interface 
 
-The user interface will be divided into 3 main parts, the top bar, the cards bar and the map. The top bar will be used to display the player's mana, the wave number, the player's castle health points and the player's score. The cards bar will be used to display the player's cards, and the map will be used to display the player's towers and enemies.
+The user interface will be divided into 3 main parts, the top bar, the cards bar and the map. The top bar will be used to display the player's ink, the wave number, the player's castle health points and the player's score. The cards bar will be used to display the player's cards, and the map will be used to display the player's towers and enemies.
 # 7. Minimum System Requirements
 
 We don't have any specific system requirements, but our game is light and should run on any recent enough computer.
