@@ -13,3 +13,6 @@
 |0.9.0|Enemies and castle take damage|
 |0.10.0|Main menu + pause menu|
 |0.10.2|Resolution of the issue #25|
+|0.11.0|Add enemies path|
+|0.12.0|Add designs|
+|0.13.0|Resolution of bugs|
